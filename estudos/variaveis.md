@@ -1,9 +1,8 @@
 # Javascript - Variáveis e Constantes
 
-- Variáveis
-    > - var
-    > - let
-    > - const
+> - var
+> - let
+> - const
 
 ## Exemplos
 

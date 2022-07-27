@@ -3,10 +3,8 @@
 - Tipos Básicos de Dados
     - ``` number ```
     - ``` string ```
-    - ``` boolean ``` 
-        - typeof true -> boolean
-    - ``` null ```    
-        - typeof null -> object
+    - ``` boolean ``` - typeof true -> boolean
+    - ``` null ``` - typeof null -> object
     - ``` undefined ```
     - ``` symbol ```
 

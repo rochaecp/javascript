@@ -1,6 +1,4 @@
-# Javascript
-
-## Inserindo códigos JS em páginas HTML
+# Javascript - Inserindo códigos JS em páginas HTML
 
 - Na TAG body
 

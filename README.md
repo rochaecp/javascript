@@ -1,6 +1,5 @@
 # Javascript
 
-1. [Olá Mundo](estudos/ola-mundo.md)
 1. [Tipos de Dados](#)
 1. [Variáveis e Constantes](#)
 1. [Operadores](#)

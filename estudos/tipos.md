@@ -1,14 +1,16 @@
 # Javascript - Tipos de Dados
 
-- Tipos Básicos de Dados
-    - ``` number ```
-    - ``` string ```
-    - ``` boolean ``` - typeof true -> boolean
-    - ``` null ``` - typeof null -> object
-    - ``` undefined ```
-    - ``` symbol ```
+## Tipos Básicos de Dados
 
-- Tipos Derivados 
-    - ``` Object ```
-        - ``` Function ```
-        - ``` Array ```
+- ``` number ```
+- ``` string ```
+- ``` boolean ``` - typeof true -> boolean
+- ``` null ``` - typeof null -> object
+- ``` undefined ```
+- ``` symbol ```
+
+## Tipos Derivados 
+
+- ``` Object ```
+- ``` Function ```
+- ``` Array ```

@@ -6,6 +6,12 @@
 - let
 - const
 
+## Criando variáveis
+
+~~~javascript
+var texto = "Ola mundo";
+~~~
+
 ## Destructuring Assignment
 
 ~~~javascript

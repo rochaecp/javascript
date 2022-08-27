@@ -1,1 +1,31 @@
-# Javascript
+# Javascript - Arrays
+
+~~~javascript
+var myArray = [];                    
+var myArray = ['aaa', 'bbb'];        
+var myArray[0] = 'abacate';          
+var size = myArray.length;var x = myArray.push('ccc');         
+var x = myArray.pop();               
+var x = myArray.shift();             
+var x = myArray.unshift('ddd')       
+var type = typeof(myArray)           
+var isArr = Array.isArray(myArray);  
+var str = myArray.toString();        
+var str = myArray.join('*');         
+myArray.reverse();                   
+myArray.sort();                      
+delete myArray[0];                         
+var myArray.splice(0, 2);                  
+var myChildren = myGirls.concat(myBoys);   
+var myChildren = arr1.concat(arr2, arr3);  
+var myChildren = arr1.concat('Peter');     
+var arr2 = arr1.slice(2);                  
+var arr2 = arr1.slice(0, 3);               
+var highest = Math.max.apply(null, num); 
+lowest = Math.min.apply(null, num);   
+var indice = lista.indexOf('Apple');       
+var indice = lista.lastIndexOf('Apple');   
+const bool = arr.includes(1);               
+const bool = arr.some(value => value > 2);  
+const bool = arr.every(value => value > 2); 
+~~~

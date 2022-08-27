@@ -51,3 +51,10 @@
 ``` typeof ```
 ``` in ```
 ``` instanceof ```
+
+## Operador Condicional
+
+~~~javascript
+x >= 6 ? 'foo' : 'bar';
+a = typeof a === 'undefined' ? 0 : a;
+~~~

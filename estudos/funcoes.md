@@ -3,7 +3,17 @@
 - Funções são objetos em Javascript.
 - Arrow functions são funções anônimas.
 
-## Função - jeito clássico
+## Modo Clássico
+
+~~~javascript
+var texto = "Ola mundo";
+
+function imprimeTexto(myTxt) {
+    console.log(myTxt);
+}
+
+imprimeTexto(texto);
+~~~
 
 ~~~javascript
 function fn(num1, num2) {

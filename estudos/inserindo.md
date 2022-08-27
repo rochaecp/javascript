@@ -1,19 +1,9 @@
 # Javascript - Inserindo códigos JS em páginas HTML
 
-- Na TAG body
+## Em um arquivo externo
 
-    ~~~html
-    <body>
-      <script>
-        alert("Hi!");  
-      </script>
-    </body> 
-    ~~~
-
-- Em um arquivo externo
-
-    ~~~html
-    <head>
-      <script src="js/main.js"></script>
-    </head>
-    ~~~
+~~~html
+<head>
+  <script src="js/main.js"></script>
+</head>
+~~~

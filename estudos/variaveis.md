@@ -1,27 +1,31 @@
 # Javascript - Variáveis e Constantes
 
-# Modificadores de escopo
+- Modificadores de escopo
+    - ```var```
+    - ```let```
+    - ```const```
 
-- var
-- let
-- const
-
-## Criando variáveis
+## Var
 
 ~~~javascript
-var texto = "Ola mundo";
+// permite redeclarar a mesma variável 
+var texto = "aaa";
+var texto = "bbb";
 ~~~
 
-## Destructuring Assignment
+## Let
 
 ~~~javascript
-var [apple, banana, orange] = ["Apple", "Banana", "Orange"];
-console.log(apple);
+// não permite redeclarar a mesma variável
 ~~~
-    
-## Symbols - generate a unique identifier 
+
+## Const
+
+- É utilizada sempre que não precisamos fazer alterações em uma variável.
+- Ao definirmos uma constante precisamos dar um valor a ela imediatamente.
+- Ao ser definido o valor não poderá mais ser modificado.
+- "imutabilidade".
 
 ~~~javascript
-const uniqueId = Symbol('valueToDebug');
-console.log(uniqueId);
-~~~    
+const melhorLinguagem = "Javascript";
+~~~

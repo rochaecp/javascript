@@ -9,9 +9,16 @@
     - ``` undefined ```
     - ``` symbol ```
 - Tipos Derivados 
-    - ``` Object ```
-    - ``` Function ```
     - ``` Array ```
+    - ``` Object ```
+    - ``` Function ```    
+
+## Operador typeof
+
+~~~javascript
+var idade = 30;
+console.log(typeof idade);
+~~~
 
 ## Number
 
@@ -37,11 +44,32 @@
 
 ~~~
 
-## Operador typeof
+## Undefined
+
+- Representa a ausência de valor de uma variável.
+- Uma variável será undefined quando não for atribuído um valor a ela.
 
 ~~~javascript
-var idade = 30;
-console.log(typeof idade);
+var nome;
+
+console.log(typeof nome);
+~~~
+
+~~~javascript
+var idade;
+
+console.log(idade + 1);
+// NaN == operação matemática que falhou
+~~~
+
+## Null
+
+- Representa a ausência de valor de uma variável.
+- Em operações matemáticas é considerado zero pelo Javascript.
+- Iniciamos uma variável com null quando desejamos adiar a sua inicialização e para que ela não seja undefined.
+
+~~~javascript
+var nome = null;
 ~~~
 
 ## Array

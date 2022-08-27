@@ -1,6 +1,7 @@
 # Javascript
 
 1. [Template](estudos/template.md)
+1. [Sobre o Javascript](estudos/about.md)
 1. [Inserindo JS na página](estudos/inserindo.md)
 1. [Tipos de Dados](estudos/tipos.md)
 1. [Variáveis e Constantes](estudos/variaveis.md)

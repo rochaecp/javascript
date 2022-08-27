@@ -10,10 +10,3 @@ if (grade >= 6)
 else 
   console.log("student was not approved");
 ~~~
-
-## Operador Condicional
-
-~~~javascript
-x >= 6 ? 'foo' : 'bar';
-a = typeof a === 'undefined' ? 0 : a;
-~~~

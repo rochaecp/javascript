@@ -16,7 +16,10 @@
     <script>
         // js code
     </script>
-        
+    
+    <!-- Recomenda-se colocar os scripts aqui para que sejam carregados por último na página -->
+    <script src="script.js"></script>
+    
     </body>
     </html>
     ~~~

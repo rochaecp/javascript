@@ -13,14 +13,14 @@ for (let i = 0; i < myArray.length; i++) {
 
 ## For..in
 
+- Usado para acessar propriedades de um objeto.
 - Não deve ser usado em Arrays, onde a ordem é importante, visto que ele possui uma ordem arbitrária.
 
 ~~~javascript
-array = [3, 5, 7];
-array.foo = "hello"; 
+var funcionario = { nome: "Mauricio", idade: 30 };
 
-for (let i in array)
-    console.log(i);
+for (let prop in funcionario)
+    console.log(`${prop} : ${funcionario[prop]}`);
 ~~~
 
 ## For..of

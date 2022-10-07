@@ -13,6 +13,8 @@ for (let i = 0; i < myArray.length; i++) {
 
 ## For..in
 
+- Não deve ser usado em Arrays, onde a ordem é importante, visto que ele possui uma ordem arbitrária.
+
 ~~~javascript
 array = [3, 5, 7];
 array.foo = "hello"; 

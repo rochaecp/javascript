@@ -26,15 +26,19 @@ for (let prop in funcionario)
 ## For..of
 
 ~~~javascript
-array = [3, 5, 7];
-array.foo = "hello"; 
+const arr = [ 10, 20, 30 ];
 
-for (let i of array)
-  console.log(i);
+for (const value of arr) { // usar const se não modificar a variável dentro do bloco
+    console.log(value);
+}
+~~~
 
-const arr = [1, 2, 3, 4];
+### Iterando sobre uma string
 
-for (let value of arr) {
-  console.log(value);
+~~~javascript
+let nome = "Mauricio";
+
+for (let letra of nome) {
+    console.log(letra);
 }
 ~~~

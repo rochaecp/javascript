@@ -1,9 +1,92 @@
 # Javascript - Arrays
 
+## Criando um Array
+
 ~~~javascript
-var myArray = [];                    
-var myArray = ['aaa', 'bbb'];        
-var myArray[0] = 'abacate';          
+       
+~~~
+
+## Acessando um item do Array
+
+~~~javascript
+       
+~~~
+
+## Iterar um Array
+
+~~~javascript
+       
+~~~
+
+## Adicionar um item ao final do Array
+
+~~~javascript
+       
+~~~
+
+## Adicionar um item no início do Array
+
+~~~javascript
+       
+~~~
+
+## Remover um item do final do Array
+
+~~~javascript
+       
+~~~
+
+## Remover um item do início do Array
+
+~~~javascript
+       
+~~~
+
+## Remover um item pela posição do índice
+
+~~~javascript
+       
+~~~
+
+## Remover itens de uma posição de índice
+
+~~~javascript
+       
+~~~
+
+## Procurar o índice de um ítem do Array
+
+~~~javascript
+       
+~~~
+
+## Copiar um Array
+
+~~~javascript
+       
+~~~
+
+## Acessar os elementos de um Array
+
+~~~javascript
+       
+~~~
+
+## Propriedades do Array
+
+~~~javascript
+       
+~~~
+
+## Métodos do Array
+
+~~~javascript
+       
+~~~
+
+## Old
+
+~~~javascript
 var size = myArray.length;var x = myArray.push('ccc');         
 var x = myArray.pop();               
 var x = myArray.shift();             

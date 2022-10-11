@@ -1,21 +1,27 @@
 # Javascript - Arrays
 
+- São objetos globais.
+
 ## Criando um Array
 
 ~~~javascript
-       
+var pessoas = ['Mauricio', 'Maria', 'Joana'];
 ~~~
 
 ## Acessando um item do Array
 
 ~~~javascript
-       
+var primeiro = pessoas[0];
+
+var ultimo = pessoas[pessoas.length - 1];
 ~~~
 
 ## Iterar um Array
 
 ~~~javascript
-       
+pessoas.forEach(function (item, indice, array) {
+    console.log(`${indice} - ${item}`);
+});
 ~~~
 
 ## Adicionar um item ao final do Array

@@ -27,94 +27,124 @@ pessoas.forEach(function (item, indice, array) {
 ## Adicionar um item ao final do Array
 
 ~~~javascript
-       
+var totalAposIncluir = pessoas.push("Antonia");
 ~~~
 
 ## Adicionar um item no início do Array
 
 ~~~javascript
-       
+totalAposIncluir = pessoas.unshift("Joãozinho"); 
 ~~~
 
 ## Remover um item do final do Array
 
 ~~~javascript
-       
+var itemExcluido = pessoas.pop();
 ~~~
 
 ## Remover um item do início do Array
 
 ~~~javascript
-       
+var itemExcluido = pessoas.shift();
 ~~~
 
 ## Remover um item pela posição do índice
 
 ~~~javascript
-       
-~~~
-
-## Remover itens de uma posição de índice
-
-~~~javascript
-       
+var posicao = 0;
+var quantidade = 1 // opcional
+var itensRemovidos = pessoas.splice(posicao, quantidade);
 ~~~
 
 ## Procurar o índice de um ítem do Array
 
 ~~~javascript
-       
+var posPrimeiroEncontrado = pessoas.indexOf('Mauricio'); 
+
+var posUltimoEncontrado = pessoas.lastIndexOf('Mauricio'); 
 ~~~
 
 ## Copiar um Array
 
 ~~~javascript
-       
-~~~
-
-## Acessar os elementos de um Array
-
-~~~javascript
-       
+var pessoasCpy = pessoas.slice();
 ~~~
 
 ## Propriedades do Array
 
+### length
+
 ~~~javascript
-       
+var tamanhoArray = pessoas.length;
 ~~~
 
 ## Métodos do Array
 
+### Array.from()
+
 ~~~javascript
-       
+
 ~~~
 
-## Old
+### Array.isArray()
 
 ~~~javascript
-var size = myArray.length;var x = myArray.push('ccc');         
-var x = myArray.pop();               
-var x = myArray.shift();             
-var x = myArray.unshift('ddd')       
-var type = typeof(myArray)           
-var isArr = Array.isArray(myArray);  
-var str = myArray.toString();        
-var str = myArray.join('*');         
-myArray.reverse();                   
-myArray.sort();                      
-delete myArray[0];                         
-var myArray.splice(0, 2);                  
-var myChildren = myGirls.concat(myBoys);   
-var myChildren = arr1.concat(arr2, arr3);  
-var myChildren = arr1.concat('Peter');     
-var arr2 = arr1.slice(2);                  
-var arr2 = arr1.slice(0, 3);               
-var highest = Math.max.apply(null, num); 
-lowest = Math.min.apply(null, num);   
-var indice = lista.indexOf('Apple');       
-var indice = lista.lastIndexOf('Apple');   
-const bool = arr.includes(1);               
-const bool = arr.some(value => value > 2);  
-const bool = arr.every(value => value > 2); 
+var ehArray = Array.isArray(pessoas);
+~~~
+
+### Array.of()
+
+~~~javascript
+
+~~~
+
+### Tostring()
+
+- Converte um Array em uma String.
+
+~~~javascript
+var pessoasStr = pessoas.toString();
+~~~
+
+### Join()
+
+- Converte um Array em uma String usando o separador escolhido.
+
+~~~javascript
+separador = ' ';
+var pessoasStr = pessoas.join(separador);
+~~~
+
+### Reverse()
+
+~~~javascript
+var pessoasInv = pessoas.reverse();
+~~~
+
+### Sort()
+
+~~~javascript
+pessoas.sort();  
+~~~
+
+### Delete
+
+~~~javascript
+delete pessoas[0];
+~~~
+
+### Concat()
+
+~~~javascript
+var maisPessoas = pessoas1.concat(pessoas2);
+
+var maisPessoasAinda = pessoas1.concat(pessoas2, pessoas3);
+~~~
+
+### Math.max.apply() e Math.min.apply()
+
+~~~javascript
+var maiorElemento = Math.max.apply(null, meusNumerosArray);
+
+var menorElemento = Math.min.apply(null, meusNumerosArray);
 ~~~

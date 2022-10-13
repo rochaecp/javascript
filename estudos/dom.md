@@ -46,4 +46,10 @@ meuPrimeiroParagrafo.style.background = "lightblue";
 ~~~javascript
 // busca todos
 ~~~
+
+### Closest
+
+~~~html
+
+~~~
         

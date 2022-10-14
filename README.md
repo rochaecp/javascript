@@ -22,8 +22,9 @@
 1. [Dicionários](estudos/dicionarios.md)
 1. [Eventos](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
-1. [DOM (Document Object Model)](estudos/dom.md)
+1. [DOM - Obtendo Elementos](estudos/dom.md)
 1. [DOM - Criando Elementos](estudos/dom-criacao.md)
+1. [DOM - Obtendo e alterando atributos](estudos/dom-atributos.md)
 
 # POO
 

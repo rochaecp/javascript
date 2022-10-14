@@ -6,7 +6,7 @@
 - ```Ctrl + Shift + J```    => abre o console do navegador
 - ```Ctrl + U```            => abre o código fonte da página
 
-## Modificando o DOM
+## document
 
 - ```document```: representa o HTML inteiro da página
 
@@ -14,26 +14,17 @@
 console.log(document); 
 ~~~
 
-## getElementById
-
-- Acessa um elemento pelo id
-
-~~~javascript
-var meuElemento = document.getElementById("meuId"); // <input type="text" id="meuId">
-
-meuElemento.value = 10; // Alterando o value
-
-meuElemento.style.backgroundColor = "lightblue"; // Alterando o style
-~~~
-
 ## querySelector
 
-- Busca o primeiro elemento utilizando os seletores do CSS
+- Busca o primeiro elemento utilizando os mesmos seletores do CSS
 
 ~~~javascript
-var meuInput = document.querySelector("#meuId"); // Acessando elemento pelo id
+let meuInput = document.querySelector('#idInput');
+~~~
 
-var meuPrimeiroParagrafo = document.querySelector("p"); // Acessando elemento pelo primeioro "p" do document
+~~~javascript
+let meuParagrafo = document.querySelector('p');
+let meuCabecalho = document.querySelector('h1');
 ~~~
 
 ## querySelectorAll
@@ -48,4 +39,16 @@ var meuPrimeiroParagrafo = document.querySelector("p"); // Acessando elemento pe
 
 ~~~html
 
-~~~       
+~~~ 
+
+## getElementById
+
+- Acessa um elemento pelo id
+
+~~~javascript
+var meuElemento = document.getElementById("meuId"); // <input type="text" id="meuId">
+
+meuElemento.value = 10; // Alterando o value
+
+meuElemento.style.backgroundColor = "lightblue"; // Alterando o style
+~~~

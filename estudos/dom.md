@@ -8,43 +8,40 @@
 
 ## Modificando o DOM
 
+- ```document```: representa o HTML inteiro da página
+
 ~~~javascript
-// document: representa o HTML inteiro da página
 console.log(document); 
 ~~~
 
 ## getElementById
 
+- Acessa um elemento pelo id
+
 ~~~javascript
-// Acessando elemento pelo id
 var meuElemento = document.getElementById("meuId"); // <input type="text" id="meuId">
-console.log(meuElemento);
 
-// Alterando o value
-meuElemento.value = 10;
+meuElemento.value = 10; // Alterando o value
 
-// Alterando o style
-meuElemento.style.backgroundColor = "lightblue";
-meuElemento.style.color = "purple";
+meuElemento.style.backgroundColor = "lightblue"; // Alterando o style
 ~~~
 
 ## querySelector
 
+- Busca o primeiro elemento utilizando os seletores do CSS
+
 ~~~javascript
-// Busca o primeiro elemento utilizando os seletores do CSS
+var meuInput = document.querySelector("#meuId"); // Acessando elemento pelo id
 
-// Acessando elemento pelo id
-var meuInput = document.querySelector("#meuId");
-
-// Acessando elemento pelo primeioro "p" do document
-var meuPrimeiroParagrafo = document.querySelector("p");
-meuPrimeiroParagrafo.style.background = "lightblue";
+var meuPrimeiroParagrafo = document.querySelector("p"); // Acessando elemento pelo primeioro "p" do document
 ~~~
 
 ## querySelectorAll
 
+- Busca todos
+
 ~~~javascript
-// busca todos
+
 ~~~
 
 ## Closest

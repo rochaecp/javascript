@@ -23,6 +23,7 @@
 1. [Eventos](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
 1. [DOM (Document Object Model)](estudos/dom.md)
+1. [DOM - Criando Elementos](estudos/dom-criacao.md)
 
 # POO
 

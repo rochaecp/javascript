@@ -23,15 +23,19 @@
 1. [Dicionários](estudos/dicionarios.md)
 1. [Eventos](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
-1. [DOM - Obtendo Elementos](estudos/dom.md)
+
+## DOM (Document Object Model)
+
+1. [DOM - Acessando Elementos](estudos/dom-acessar-elementos.md)
 1. [DOM - Criando Elementos](estudos/dom-criacao.md)
 1. [DOM - Obtendo e alterando atributos](estudos/dom-atributos.md)
 
-# POO
+## POO
 
 1. [Classes, Objetos e Métodos](estudos/classes.md)
 1. [Herança](estudos/heranca.md)
 
-# Exemplos Diversos
+## Exemplos Diversos
 
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
+1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)

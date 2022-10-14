@@ -3,7 +3,7 @@
 ## getAttribute e setAttribute 
 
 ~~~javascript
-let minhaImg = document.querySelector('img'); // pega um <img src="img/img1.png" />
+let minhaImg = document.querySelector('img'); // armazena uma referência para <img src="img/img1.png" />
 
 minhaImg.onclick = function () {
     let meuCaminho = minhaImg.getAttribute('src');

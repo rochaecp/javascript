@@ -29,10 +29,14 @@ let meuCabecalho = document.querySelector('h1');
 
 ## querySelectorAll
 
-- Busca todos
+- Busca lista de elementos
 
 ~~~javascript
+const todosBotes = document.querySelectorAll("button");
 
+for (i = 0; i < todosBotes.length; i++) {
+    todosBotes[i].addEventListener("click", minhaFuncao);
+}
 ~~~
 
 ## Closest

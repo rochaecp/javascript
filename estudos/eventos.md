@@ -3,8 +3,16 @@
 ## onclick
 
 ~~~javascript
-document.querySelector('button').onclick = function () {
+document.querySelector('#idBotao').onclick = function () {
     alert('Ola');
+}
+~~~
+
+~~~javascript
+let meuBotao = document.querySelector('#idBotao');
+
+meuBotao.onclick = function () {
+    alert('ola');
 }
 ~~~
 

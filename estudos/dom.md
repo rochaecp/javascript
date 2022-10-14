@@ -13,7 +13,7 @@
 console.log(document); 
 ~~~
 
-### getElementById
+## getElementById
 
 ~~~javascript
 // Acessando elemento pelo id
@@ -28,7 +28,7 @@ meuElemento.style.backgroundColor = "lightblue";
 meuElemento.style.color = "purple";
 ~~~
 
-### querySelector
+## querySelector
 
 ~~~javascript
 // Busca o primeiro elemento utilizando os seletores do CSS
@@ -41,15 +41,14 @@ var meuPrimeiroParagrafo = document.querySelector("p");
 meuPrimeiroParagrafo.style.background = "lightblue";
 ~~~
 
-### querySelectorAll
+## querySelectorAll
 
 ~~~javascript
 // busca todos
 ~~~
 
-### Closest
+## Closest
 
 ~~~html
 
-~~~
-        
+~~~       

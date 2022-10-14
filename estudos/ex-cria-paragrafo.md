@@ -22,7 +22,7 @@
 
 ## Arquivo script.js
 
-~~~~javascript
+~~~javascript
 function criaParagrafo() {
     let paragrafo = document.createElement('p');
     paragrafo.textContent = "Texto do meu parágrafo";

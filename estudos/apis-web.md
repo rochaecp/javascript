@@ -1,4 +1,11 @@
 # APIs da Web
 
-Visite o site:
-- [APIs da Web](https://developer.mozilla.org/pt-BR/docs/Web/API)
+## API de Web Storage
+
+Fornece as seguintes maneiras de armazenar dados:
+- ```sessionStorage```:
+    - Acessível via Window.sessionStorage
+- ```localStorage```
+    - Acessível via Window.localStorage
+
+

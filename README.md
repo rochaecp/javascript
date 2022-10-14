@@ -29,3 +29,7 @@
 
 1. [Classes, Objetos e Métodos](estudos/classes.md)
 1. [Herança](estudos/heranca.md)
+
+# Exemplos Diversos
+
+1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)

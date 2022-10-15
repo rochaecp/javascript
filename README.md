@@ -39,3 +39,5 @@
 
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
 1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)
+
+eu amo a Vitória

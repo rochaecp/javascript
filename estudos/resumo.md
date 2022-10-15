@@ -17,6 +17,14 @@ linhas */
 
 - ``` = ``` recebe
 
+Alguns exemplos: 
+
+~~~javascript
+nome = "Maurício"; // atribuição, podemos ler assim: a variável nome recebe a string "Maurício".
+idade = 30;
+estaChovendo = false;
+~~~
+
 #### Operadores Relacionais (São usados para comparar 2 elementos)
 
 - ``` == ``` igual
@@ -27,11 +35,114 @@ linhas */
 - ``` >= ``` maior ou igual
 - ``` <= ``` menor ou igual
 
+Alguns exemplos:
+
+~~~javascript
+// Operador ==
+console.log(1 == 1); // lê-se "1 é igual a 1?". Vai escrever true no console
+console.log(1 == 2); // vai escrever false no console
+console.log('banana' == 'banana'); // vai escrever true no console
+console.log('banana' == 'tomate'); // vai escrever false no console
+
+// Operador !=
+console.log(1 != 1); // lê-se "1 é diferente de 1?". Vai escrever false no console
+console.log(1 != 2); // vai escrever true no console
+console.log('banana' != 'banana'); // vai escrever false no console
+console.log('banana' != 'tomate'); // vai escrever true no console
+
+// Operador >
+console.log(10 > 5); // lê-se "10 é maior do que 5?". Vai escrever true no console
+console.log(10 > 10); // vai escrever false no console
+console.log(10 > 15); // vai escrever false no console
+
+// Operador >=
+console.log(10 >= 5); // lê-se "10 é maior ou igual a 5?". Vai escrever true no console
+console.log(10 >= 10); // vai escrever true no console (pois o operador "maior ou igual" retorna true quando os valores comparados são iguais também!)
+console.log(10 >= 15); // vai escrever false no console
+~~~
+
 #### Operadores Lógicos
 
-- ``` && ``` E
-- ``` || ``` OU
-- ``` ! ``` NÃO
+- ``` && ``` E 
+    - O operador && (lê-se "E" ou "and") é usado com dois operandos (é um operador binário), ex.: ``` true && true ```
+    - O resultado da expressão será ```true``` se os dois operandos forem ```true```.
+    - O resultado da expressão será ```false``` bastando que um dos operandos seja ```false```.
+- ``` || ``` Ou 
+    - O operador || (lê-se "OU" ou "or") é usado com dois operandos (é um operador binário), ex.: ``` true || false ```
+    - O resultado da expressão será ```true``` bastando que um dos operandos seja ```true```.
+    - O resultado da expressão será ```false``` somente quando os dois operandos forem ```false```.
+- ``` ! ``` Não 
+    - O operador ! (lê-se "NÃO" ou "not") é usado com apenas um operando (é um operador unário), ex.: ``` !false ```
+    - O resultado da expressão será ```true``` somente quando o operando for ```false```. 
+    - O resultado da expressão será ```false``` somente quando o operando for ```true```.
+
+Alguns exemplos básicos:
+
+~~~javascript
+// Operador &&
+console.log(true && true); // vai escrever true no console
+console.log(true && false); // vai escrever false no console
+console.log(false && true); // vai escrever false no console
+console.log(false && false); // vai escrever false no console
+
+// Operador ||
+console.log(true || true); // vai escrever true no console
+console.log(true || false); // vai escrever true no console
+console.log(false || true); // vai escrever true no console
+console.log(false || false); // vai escrever false no console
+
+// Operador !
+console.log(!true && true); 
+console.log(!false && true);
+~~~
+
+Exemplos utilizando 3 operandos:
+
+~~~javascript
+// Expressão lógica usando 3 operandos com o operador &&
+console.log(true && true && true); // lê-se "true e true e true". Vai escrever true no console.
+console.log(true && true && false); // vai escrever false no console. 
+console.log(true && false && false); // vai escrever false no console.
+console.log(false && false && false); // vai escrever false no console. 
+ 
+// Expressão lógica usando 3 operandos com o operador ||
+console.log(true || true || true); // lê-se "true ou true ou true". Vai escrever true no console. 
+console.log(true || true || false); // vai escrever true no console.
+console.log(true || false || false); // vai escrever true no console.
+console.log(false || false || false); // vai escrever false no console.
+~~~
+
+Exemplos de expressões lógicas mesclando os 3 operadores:
+
+> Aqui precisamos lembrar que em uma expressão lógica precisamos resolver primeiro a expressão que se encontra entre parênteses. Por exemplo: na expressão:
+> ``` (true || false) && true ``` nós resolvemos primeiro a expressão ``` (true || false) ``` que vai resultar em ``` true ``` e depois resolvemos o restante da expressão, que vai se transformar em: ``` true && true ```
+
+~~~javascript
+console.log((true || false ) && true); // vai escrever true na tela
+console.log((true || false ) && false); // vai escrever false na tela
+console.log((true || false ) && (true || true)); // vai escrever true na tela
+console.log((false && false ) || (true || true)); // vai escrever true na tela
+console.log((false && false ) || (false && false)); // vai escrever false na tela
+console.log(!false && !false); // vai escrever true na tela (repare o não com o operador !)
+~~~
+
+ Exemplos de expressão lógicas utilizando variáveis:
+ 
+ > Aqui a única diferença para os exemplos anteriores é que iremos utilizar variáveis que irão possuir os valores ```true``` ou ```false```.
+
+~~~javascript
+// exemplo 1
+let vaiChover = false;
+console.log(vaiChover); // vai escrever no console false
+
+// exemplo 2
+let vaiChover = false;
+console.log(vaiChover); // vai escrever no console false
+
+
+~~~
+ 
+ 
 
 #### Operadores Aritméticos:    
 
@@ -93,9 +204,21 @@ const melhorLinguagem = "Javascript";
 
 ## if sem else
 
+- Exemplo 1
+
 ~~~javascript
-if (idade > 17) {
+if (10 > 5) {
     console.log("maior de idade");
+}
+~~~
+
+- Exemplo 2
+
+~~~javascript
+let estaChovendo = true;
+
+if (estaChovendo == true) {
+    console.log("Usar o guarda-chuva");
 }
 ~~~
 

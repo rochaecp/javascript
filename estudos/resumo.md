@@ -92,8 +92,8 @@ console.log(false || true); // vai escrever true no console
 console.log(false || false); // vai escrever false no console
 
 // Operador !
-console.log(!true && true); 
-console.log(!false && true);
+console.log(!true); // vai escrever false no console
+console.log(!false); // vai escrever true no console
 ~~~
 
 Exemplos utilizando 3 operandos:
@@ -119,6 +119,7 @@ Exemplos de expressões lógicas mesclando os 3 operadores:
 
 ~~~javascript
 console.log((true || false ) && true); // vai escrever true na tela
+console.log(true || (false && true)); // vai escrever true na tela
 console.log((true || false ) && false); // vai escrever false na tela
 console.log((true || false ) && (true || true)); // vai escrever true na tela
 console.log((false && false ) || (true || true)); // vai escrever true na tela
@@ -136,13 +137,37 @@ let vaiChover = false;
 console.log(vaiChover); // vai escrever no console false
 
 // exemplo 2
-let vaiChover = false;
-console.log(vaiChover); // vai escrever no console false
+let estaFrio = true;
+let estaChovendo = true;
+let ficarEmCasa = estaFrio && estaChovendo; // guarda o valor true na variável ficarEmCasa
+console.log(ficarEmCasa); // vai escrever true no console 
 
+// exemplo 3
+let estaFrio = true;
+let estaChovendo = false;
+let ficarEmCasa = estaFrio && estaChovendo; // guarda o valor false na variável ficarEmCasa
+console.log(ficarEmCasa); // vai escrever false no console 
 
-~~~
- 
- 
+// exemplo 4
+let estaQuente = true;
+let estouNaPraia = false;
+let possoUsarSunga = estaQuente && estouNaPraia; // guarda o valor false na variável possoUsarSunga
+console.log(possoUsarSunga); // vai escrever false no console (ainda bem)
+
+// exemplo 5
+let queroComerDoce = true;
+let souDiabetico = true;
+let meComporteiHoje = true; 
+let possoComerDoce = queroComerDoce && !souDiabetico && meComporteiHoje; // guarda o valor false na variável possoComerDoce
+console.log(possoComerDoce); // vai escrever false no console
+
+// exemplo 6
+let queroComerDoce = true;
+let souDiabetico = false;
+let meComporteiHoje = false; 
+let possoComerDoce = queroComerDoce && !souDiabetico && meComporteiHoje; // guarda o valor false na variável possoComerDoce
+console.log(possoComerDoce); // vai escrever false no console (pois não se comportou!)
+~~~ 
 
 #### Operadores Aritméticos:    
 

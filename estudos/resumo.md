@@ -180,8 +180,8 @@ console.log(possoComerDoce); // vai escrever false no console (pois não se comp
     - Pré-incremento (se usado desta forma: ```++minhaVariavelNumerica```) 
     - Pós-incremento (se usado desta forma: ```minhaVariavelNumerica++```) 
 - ``` -- ``` 
-    - Pré-decremento (se usado desta forma: ```++minhaVariavelNumerica```) 
-    - Pós-decremento (se usado desta forma: ```minhaVariavelNumerica++```) 
+    - Pré-decremento (se usado desta forma: ```--minhaVariavelNumerica```) 
+    - Pós-decremento (se usado desta forma: ```minhaVariavelNumerica--```) 
 
 ## Tipos de Dados
 

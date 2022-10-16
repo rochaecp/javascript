@@ -175,9 +175,13 @@ console.log(possoComerDoce); // vai escrever false no console (pois não se comp
 - ``` - ``` Subtração
 - ``` * ``` Multiplicação
 - ``` / ``` Divisão
-- ``` % ``` Resto da divisão ()
-- ``` ++ ```
+- ``` % ``` Resto da divisão (também chamado de módulo)
+- ``` ++ ``` 
+    - Pré-incremento (se usado desta forma: ```++minhaVariavelNumerica```) 
+    - Pós-incremento (se usado desta forma: ```minhaVariavelNumerica++```) 
 - ``` -- ``` 
+    - Pré-decremento (se usado desta forma: ```++minhaVariavelNumerica```) 
+    - Pós-decremento (se usado desta forma: ```minhaVariavelNumerica++```) 
 
 ## Tipos de Dados
 

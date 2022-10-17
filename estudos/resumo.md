@@ -372,14 +372,31 @@ for(var i = 0; i < 5; i++) {
 > 1. ```i``` recebe o valor ```0```   
 > 2. Verifica-se se ```i < 5``` (caso sim, executa o comando ```console.log("Bom dia!");``` e em caso contrário ele encerra o laço for)   
 > 3. Após executar o comando ```console.log("Bom dia!");``` o valor de ```i``` é incrementado em ```1``` (conforme o incremento ```i++``` que é o mesmo que ```i = i + 1```)
-> Após o incremento, voltamos para o passo 2 (onde verificamos se ```i < 5```) e seguimos repetindo esses passos até sairmos do laço de repetição (quando ```i``` for igual a ```5```).  
+> Após o incremento, voltamos para o passo 2 (onde verificamos se ```i < 5```) e seguimos repetindo esses passos até sairmos do laço de repetição (quando ```i``` for igual a ```5```).   
+
 > A nossa variável de controle ```i``` irá assumir os seguintes valores:
-> - Na primeira repetição: ```i``` tem o valor ```0```.
-> - Na segunda repetição: ```i``` tem o valor ```1```.
-> - Na terceira repetição: ```i``` tem o valor ```2```.
-> - Na quarta repetição: ```i``` tem o valor ```3```.
-> - Na quinta repetição: ```i``` tem o valor ```4```.
-> - Antes de iniciar a sexta repetição, o valor de ```i``` é incrementado em ```1``` e ```i``` passa a ter o valor ```5```.
+> - Na primeira repetição: ```i``` tem o valor ```0```:    
+>   - testamos se  ```i < 5```   
+>   - executamos o bloco de comandos: ```console.log("Bom dia")```   
+>   - fazemos ``` i++ ``` (```i``` passa a ter o valor 1).   
+> - Na segunda repetição: ```i``` tem o valor ```1```:   
+>   - testamos se  ```i < 5```   
+>   - executamos o bloco de comandos: ```console.log("Bom dia")```   
+>   - fazemos ``` i++ ``` (```i``` passa a ter o valor 2).   
+> - Na terceira repetição: ```i``` tem o valor ```2```:
+>   - testamos se  ```i < 5```
+>   - executamos o bloco de comandos: ```console.log("Bom dia")```   
+>   - fazemos ``` i++ ``` (```i``` passa a ter o valor 3).   
+> - Na quarta repetição: ```i``` tem o valor ```3```:    
+>   - testamos se  ```i < 5```   
+>   - executamos o bloco de comandos: ```console.log("Bom dia")```   
+>   - fazemos ``` i++ ``` (```i``` passa a ter o valor 4).   
+> - Na quinta repetição: ```i``` tem o valor ```4```: 
+>   - testamos se  ```i < 5```   
+>   - executamos o bloco de comandos: ```console.log("Bom dia")```   
+>   - fazemos ``` i++ ``` (```i``` passa a ter o valor 5).   
+> - Na sexta repetição: ```i``` tem o valor ```5```
+>   - testamos se  ```i < 5``` e saímos do laço de repetição 
 
 Exemplos:
 

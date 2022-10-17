@@ -11,13 +11,13 @@ várias
 linhas */
 ~~~
 
-## Alguns Operadores
+## Operadores
 
 #### Operadores de Atribuição:   
 
 - ``` = ``` recebe
 
-Alguns exemplos: 
+Exemplos: 
 
 ~~~javascript
 nome = "Maurício"; // atribuição, podemos ler assim: a variável nome recebe a string "Maurício".
@@ -35,7 +35,7 @@ estaChovendo = false;
 - ``` >= ``` maior ou igual
 - ``` <= ``` menor ou igual
 
-Alguns exemplos:
+Exemplos:
 
 ~~~javascript
 // Operador ==
@@ -76,7 +76,7 @@ console.log(10 >= 15); // vai escrever false no console
     - O resultado da expressão será ```true``` somente quando o operando for ```false```. 
     - O resultado da expressão será ```false``` somente quando o operando for ```true```.
 
-Alguns exemplos básicos:
+Exemplos básicos:
 
 ~~~javascript
 // Operador &&
@@ -179,9 +179,21 @@ console.log(possoComerDoce); // vai escrever false no console (pois não se comp
 - ``` ++ ``` 
     - Pré-incremento (se usado desta forma: ```++minhaVariavelNumerica```) 
     - Pós-incremento (se usado desta forma: ```minhaVariavelNumerica++```) 
+        - Funciona como uma abreviação para: ```minhaVariavelNumerica = minhaVariavelNumerica + 1;```
 - ``` -- ``` 
     - Pré-decremento (se usado desta forma: ```--minhaVariavelNumerica```) 
-    - Pós-decremento (se usado desta forma: ```minhaVariavelNumerica--```) 
+    - Pós-decremento (se usado desta forma: ```minhaVariavelNumerica--```)
+
+Exemplos:
+
+~~~javascript
+let valor1 = 4;
+let valor2 = 2;
+
+console.log(valor1 + valor2);
+console.log(4 % 2); // vai escrever 0 no console (resto da divisão de 4 por 2)
+console.log(4 % 3); // vai escrever 1 no console (resto da divisão de 4 por 1: "sobra 1")
+~~~
 
 ## Tipos de Dados
 
@@ -191,7 +203,8 @@ console.log(possoComerDoce); // vai escrever false no console (pois não se comp
     - ``` boolean ``` valores true ou false.
     - ``` null ``` Representa a ausência de valor de uma variável.
     - ``` undefined ``` Representa a ausência de valor de uma variável. Uma variável será undefined quando não for atribuído um valor a ela.
-- Exemplos
+
+Exemplos:
 
 ~~~javascript
 let idade = 26; // number
@@ -205,7 +218,7 @@ let vaiChover = true; // boolean
 
 #### var
 
-- Exemplo
+Exemplo:
 
 ~~~javascript
 var nome = "Maurício";
@@ -213,7 +226,7 @@ var nome = "Maurício";
 
 #### let
 
-- Exemplo
+Exemplo:
 
 ~~~javascript
 let nome = "Maurício";
@@ -225,15 +238,16 @@ let nome = "Maurício";
 - Ao definirmos uma constante precisamos dar um valor a ela imediatamente.
 - Ao ser definido o valor não poderá mais ser modificado.
 - "imutabilidade".
-- Exemplo
+
+Exemplo:
 
 ~~~javascript
 const melhorLinguagem = "Javascript";
 ~~~
 
-## if sem else
+## Comando if (sem else)
 
-- Exemplo 1
+Exemplo 1:
 
 ~~~javascript
 if (10 > 5) {
@@ -241,7 +255,7 @@ if (10 > 5) {
 }
 ~~~
 
-- Exemplo 2
+Exemplo 2:
 
 ~~~javascript
 let estaChovendo = true;
@@ -251,7 +265,7 @@ if (estaChovendo == true) {
 }
 ~~~
 
-## if com else
+## Comando if (com else)
 
 ~~~javascript
 if (idade > 17) {
@@ -261,7 +275,7 @@ if (idade > 17) {
 }
 ~~~
 
-## if com else if e com else
+## Comando if (com else if e com else)
 
 ~~~javascript
 if (idade > 17) {
@@ -273,10 +287,21 @@ if (idade > 17) {
 }
 ~~~
 
-## comando switch
+## Comando switch
+
+> O comando switch ("escolha") é muito semelhante a um comando if.   
+> 
+
+Exemplos:
 
 ~~~javascript
-const fruta = "pera";
+let fruta = "pera";
+
+/*
+    Note que no comando abaixo cada "case" 
+    verifica o valor da variável "fruta" de 
+    modo mais resumido do que um conjunto de ifs
+*/
 
 switch (fruta) {
     case "banana":
@@ -290,9 +315,92 @@ switch (fruta) {
 }
 ~~~
 
-## 
+> **Observação**:
+> Poderíamos reescrever o exemplo acima utilizando ifs, segue o exemplo:  
 
 ~~~javascript
+let fruta = "pera";
 
+if(fruta == "banana") {
+    console.log("banana é bom");
+} else if (fruta == "pera") {
+    console.log("pera é uma delícia");
+} else {
+    console.log("erro");
+}
 ~~~
 
+## Comandos de repetição
+
+- Os comandos de repetição são um recurso que permite que um certo trecho do código de um programa seja repetido um certo número de vezes.
+- Vamos estudar inicialmente aqui três comandos de repetição:
+    -  ``` For ```
+    -  ``` While ```
+    -  ``` Do ... While ```
+
+#### Comando For
+
+- O comando for utiliza 3 expressões para definir quantas vezes ele deve ser repetido:
+
+~~~javascript
+for(valor_inicial; condição_de_parada; valor_de_incremento)
+{
+    instruções a serem repetidas;
+}
+~~~
+
+> Repare que ```valor_inicial```, ```condição_de_parada``` e ```valor_de_incremento``` são comandos.  
+> Repare que utilizamos sempre o ``` ; ``` para separar o comando ```valor_inicial``` do comando ```condição_de_parada```.  
+> Repare que utilizamos também o ``` ; ``` para separar o comando ```condição_de_parada``` do ```valor_de_incremento```.  
+
+Exemplo:
+
+~~~javascript
+// Ex1: escrevendo "Bom dia!" 5 vezes
+for(var i = 0; i < 5; i++) {
+    console.log("Bom dia!");
+}
+~~~
+
+> **Explicando o exemplo**:   
+> Note que utilizamos a variável ```i``` como uma variável de controle.  
+> Em nosso exemplo, a variável ```i``` irá assumir inicialmente o **valor inicial** é ``` i = 0 ```.   
+> A **condição de parada** para o nosso laço de repetição é ```i < 5```. Então o bloco de comandos que começa com o "```{ ```" e termina com o "```}```" será executado enquanto o valor de i for menor do que 5.  
+> O **valor de incremento** do nosso laço de repetição é ``` i++ ```, que é o mesmo que ```i = i + 1``` (```i++``` é uma abreviação para esse comando).  
+> O **valor de incremento** no nosso exemplo é ``` 1 ``` é o valor de incremento que ```i``` irá receber no final de cada repetição.  
+> Em resumo, ocorre o seguinte:  
+> 1. ```i``` recebe o valor ```0```   
+> 2. Verifica-se se ```i < 5``` (caso sim, executa o comando ```console.log("Bom dia!");``` e em caso contrário ele encerra o laço for)   
+> 3. Após executar o comando ```console.log("Bom dia!");``` o valor de ```i``` é incrementado em ```1``` (conforme o incremento ```i++``` que é o mesmo que ```i = i + 1```)
+> Após o incremento, voltamos para o passo 2 (onde verificamos se ```i < 5```) e seguimos repetindo esses passos até sairmos do laço de repetição (quando ```i``` for igual a ```5```).  
+> A nossa variável de controle ```i``` irá assumir os seguintes valores:
+> - Na primeira repetição: ```i``` tem o valor ```0```.
+> - Na segunda repetição: ```i``` tem o valor ```1```.
+> - Na terceira repetição: ```i``` tem o valor ```2```.
+> - Na quarta repetição: ```i``` tem o valor ```3```.
+> - Na quinta repetição: ```i``` tem o valor ```4```.
+> - Antes de iniciar a sexta repetição, o valor de ```i``` é incrementado em ```1``` e ```i``` passa a ter o valor ```5```.
+
+Exemplos:
+
+~~~javascript
+// Ex1: escrevendo os numeros de 0 a 4:
+for(var i = 0; i < 5; i++) {
+    console.log(i); // note que estamos escrevendo o valor de i que vai de 0 a 4
+}
+
+// Ex2: escrevendo os numeros de 0 a 4 (usando o <=): 
+for(var i = 0; i <= 4; i++) {
+    console.log(i); 
+}
+
+// Ex3: escrevendo os numeros de 1 a 4 (usando o <=): 
+for(var i = 1; i <= 4; i++) {
+    console.log(i); 
+}
+
+// Ex4: escrevendo os numeros de 1 a 10 (usando o <=): 
+for(var i = 1; i <= 10; i++) {
+    console.log(i); 
+}
+~~~

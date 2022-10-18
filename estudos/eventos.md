@@ -18,9 +18,19 @@ meuBotao.onclick = function () {
 
 ## AddEventListener
 
+- Um event listener é um "ouvidor de eventos".
+
 ~~~javascript
 var meuBotao = document.querySelector("#idBotao")
 meuBotao.addEventListener('click', nomeMinhaFuncao);
+~~~
+
+Executa um código após o documento estar carregado:
+
+~~~javascript
+document.addEventListener("DOMContentLoaded", function() {
+  // code here
+});
 ~~~
 
 ## Exemplos

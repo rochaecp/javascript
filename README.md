@@ -42,4 +42,5 @@
 
 ## Projetos para treino
 
+1. [Template Projetos](estudos/proj-template.md)
 1. [Criação de um Jogo de advinhar números](estudos/proj-random-numbers.md)

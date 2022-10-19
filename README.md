@@ -39,3 +39,7 @@
 
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
 1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)
+
+## Projetos para treino
+
+1. [Criação de um Jogo de advinhar números](estudos/proj-random-numbers.md)

@@ -16,7 +16,7 @@ console.log(document);
 
 ## querySelector
 
-- Busca o primeiro elemento utilizando os mesmos seletores do CSS
+- Guarda uma referência para o primeiro elemento utilizando os mesmos seletores do CSS
 
 ~~~javascript
 let meuInput = document.querySelector('#idInput');
@@ -29,7 +29,7 @@ let meuCabecalho = document.querySelector('h1');
 
 ## querySelectorAll
 
-- Busca lista de elementos
+- Guarda uma referência para uma lista de elementos
 
 ~~~javascript
 const todosBotes = document.querySelectorAll("button");
@@ -47,7 +47,7 @@ for (i = 0; i < todosBotes.length; i++) {
 
 ## getElementById
 
-- Acessa um elemento pelo id
+- Guarda uma referência para um elemento pelo seu id
 
 ~~~javascript
 var meuElemento = document.getElementById("meuId"); // <input type="text" id="meuId">

@@ -11,7 +11,7 @@ Quando o jogo acabar, deve ser dado ao jogador a opção de jogar novamente.
 
 ## Solução
 
-Arquivo ```index.html```:
+Arquivo index.html:
 
 ~~~html
 <!DOCTYPE html>
@@ -28,12 +28,12 @@ Arquivo ```index.html```:
 
     <div class="form">
         <label for="numero">Digite um número</label>
-        <input type="number" min="1" max="100" required id="numero" class="numero">
+        <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite">
         <input type="submit" value="Tentar" class="tentarSubmit">
     </div>
 
     <div class="resultados">
-        <p class="tentativas"></p>
+        <p class="palpites"></p>
         <p class="ultimoResultado"></p>
         <p class="altoOuBaixo"></p>
     </div>
@@ -43,7 +43,7 @@ Arquivo ```index.html```:
 </html>
 ~~~
 
-Arquivo ```styles.css```:
+Arquivo styles.css:
 
 ~~~css
 html {
@@ -69,9 +69,19 @@ body {
 }
 ~~~
 
-Arquivo ```scripts.js```: 
+Arquivo scripts.js: 
 
 ~~~javascript
+var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
+var palpite = document.querySelector('.palpites');
+var ultimoResultado = document.querySelector('.ultimoResultado');
+var altoOuBaixo = document.querySelector('.altoOuBaixo');
+
+var tentarSubmit = document.querySelector('.tentarSubmit');
+var campoPalpite = document.querySelector('.campoPalpite');
+
+var contagemPalpites = 1;
+var botaoReinicio;
 ~~~
 

@@ -1,11 +1,13 @@
 # Javascript - Variáveis e Constantes
 
-- Modificadores de escopo
+- Variáveis são basicamente recipientes para valores (como números, ou strings ou textos)
+
+## Modificadores de escopo
     - ```var```
     - ```let```
     - ```const```
 
-## Var
+### Var
 
 ~~~javascript
 // permite redeclarar a mesma variável 
@@ -13,13 +15,13 @@ var texto = "aaa";
 var texto = "bbb";
 ~~~
 
-## Let
+### Let
 
 ~~~javascript
 // não permite redeclarar a mesma variável
 ~~~
 
-## Const
+### Const
 
 - É utilizada sempre que não precisamos fazer alterações em uma variável.
 - Ao definirmos uma constante precisamos dar um valor a ela imediatamente.

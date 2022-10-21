@@ -1,7 +1,9 @@
 # Javascript - Operadores
 
-- Operadores de Atribuição:   
+- Operadores de Atribuição:  
     ``` = ```
+    
+- Operadores de atribuição ampliada (ou atribuição composta):  
     ``` += ```
     ``` -= ```
     ``` *= ```

@@ -1,5 +1,6 @@
 # Javascript - Funções
 
+- Funções são blocos reutilizáveis de código que você pode escrever uma vez e executá-lo diversas vezes.
 - Funções são objetos em Javascript.
 - Arrow functions são funções anônimas.
 

@@ -17,6 +17,11 @@
 
 - É uma má prática poluir seu HTML com JavaScript (evite escrever javascript inline dentro de elementos HTML!). 
 
+## Performance
+
+- Colocamos os scripts no fim da tag ```<body``` por questões de velocidade (a interpretação dos scripts pode atrasar o carregamento do display).
+- Os scripts externos vão se comportar como se estivessem no local onde a tag ```<script>``` tiver sido colocada.
+
 ## Node
 
 - É um interpretador de Javascript;

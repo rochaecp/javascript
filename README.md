@@ -1,6 +1,10 @@
 # Javascript
 
+## Úteis
+
 - [Template](estudos/template.md)
+
+## Introdução
 
 1. [Sobre o Javascript](estudos/about.md)
 1. [Sobre APIs da Web disponíveis](estudos/apis-web.md)
@@ -15,13 +19,22 @@
 1. [Math](estudos/math.md)
 1. [Gerar Números Aleatórios](estudos/aleatorios.md)
 1. [Datas](estudos/datas.md)
+
+## Comandos Condicionais e de Repetição
+
 1. [If .. Else](estudos/if.md)
 1. [Switch](estudos/switch.md)
 1. [While](estudos/while.md)
 1. [For, For .. in, For .. of](estudos/for.md)
+
+## Estruturas de Dados
+
 1. [Arrays](estudos/arrays.md)
-1. [Funções](estudos/funcoes.md)
 1. [Dicionários](estudos/dicionarios.md)
+
+## Outros
+
+1. [Funções](estudos/funcoes.md)
 1. [Eventos](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
 

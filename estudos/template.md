@@ -1,32 +1,34 @@
 # Javascript - Template
 
-- Template
+index.html:
 
-    ~~~html
-    <!DOCTYPE html>
-    <html>
-    <style>
-        body {
-            background-color: #282525;
-            color: white;
-        }
-    </style>
-    <body>
-        
-    <script>
-        // js code
-    </script>
-    
-    <!-- Recomenda-se colocar os scripts aqui para que sejam carregados por último na página -->
-    <script src="script.js"></script>
-    
-    </body>
-    </html>
-    ~~~
-    
-- Commentários
+~~~html
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Projeto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
 
-    ~~~javascript
-    // comment
-    /* comment */
-    ~~~    
+<body>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
+~~~
+
+styles.css:
+
+~~~css
+body {
+    background-color: #282525;
+    color: white;
+}
+~~~
+
+scripts.js:
+
+~~~javascript
+// code here
+~~~

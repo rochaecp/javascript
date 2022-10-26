@@ -29,7 +29,7 @@ Arquivo index.html:
     <div class="form">
         <label for="numero">Digite um número</label>
         <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite">
-        <input type="submit" value="Tentar" class="tentarSubmit">
+        <input type="submit" value="Tentar" class="btnEnviarPalpite">
     </div>
 
     <div class="resultados">
@@ -75,7 +75,7 @@ Arquivo scripts.js:
 var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
 var campoPalpite = document.querySelector('.campoPalpite');
-var tentarSubmit = document.querySelector('.tentarSubmit');
+var btnEnviarPalpite = document.querySelector('.btnEnviarPalpite');
 
 var palpites = document.querySelector('.palpites');
 var ultimoResultado = document.querySelector('.ultimoResultado');
@@ -85,6 +85,7 @@ var contagemPalpites = 1;
 var botaoReinicio;
 
 function configFimDeJogo() {
+    campoPalpite.disabled = true;
 
 }
 
@@ -104,6 +105,7 @@ function conferirPalpite() {
     } else if (contagemPalpites === 10) {
         ultimoResultado.textContent = 'Fim de Jogo';
         altoOuBaixo.textContent = '';
+        configFimDeJogo();
     } else {
         ultimoResultado.textContent = 'Erroooou';
         ultimoResultado.style.backgroundColor = 'red';
@@ -118,5 +120,7 @@ function conferirPalpite() {
     campoPalpite.value = '';
     campoPalpite.focus();
 }
+
+btnEnviarPalpite.addEventListener('click', conferirPalpite);
 ~~~
 

@@ -49,7 +49,7 @@
 1. [Classes, Objetos e Métodos](estudos/classes.md)
 1. [Herança](estudos/heranca.md)
 
-## Exemplos Diversos
+## Exemplos
 
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
 1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)

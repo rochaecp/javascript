@@ -51,8 +51,6 @@
 
 ## Exemplos Diversos
 
-- [Template Exemplos](estudos/ex-template.md)
-
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
 1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)
 1. [Criação de um Jogo de advinhar números](estudos/ex-random-numbers.md)

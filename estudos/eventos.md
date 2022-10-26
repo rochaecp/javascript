@@ -1,12 +1,25 @@
 # Javascript - Eventos
 
-## onclick
+- Eventos são ações que acontencem no navegador. 
+- Os construtores que monitoram os acontecimentos de eventos são chamados de **event listeners** (ouvidores de eventos).
+- Os blocos de código executados em resposta ao acontecimento do evento são chamados de **event handlers**.
+
+## AddEventListener
+
+- O método ``` addEventListener ``` recebe 2 argumentos: o tipo do evento e o nome da função a ser executada (sem parênteses!).
 
 ~~~javascript
-document.querySelector('#idBotao').onclick = function () {
-    alert('Ola');
-}
+var meuBotao = document.querySelector("#idBotao");
+meuBotao.addEventListener('click', nomeMinhaFuncao);
 ~~~
+
+~~~javascript
+document.addEventListener("DOMContentLoaded", function() {
+  // código executado após o documento ser carregado
+});
+~~~
+
+## Onclick
 
 ~~~javascript
 let meuBotao = document.querySelector('#idBotao');
@@ -16,47 +29,8 @@ meuBotao.onclick = function () {
 }
 ~~~
 
-## AddEventListener
-
-- Um event listener é um "ouvidor de eventos".
-
 ~~~javascript
-var meuBotao = document.querySelector("#idBotao")
-meuBotao.addEventListener('click', nomeMinhaFuncao);
-~~~
-
-Executa um código após o documento estar carregado:
-
-~~~javascript
-document.addEventListener("DOMContentLoaded", function() {
-  // code here
-});
-~~~
-
-## Exemplos
-
-### AddEventListener - click
-
-- Arquivo html
-
-~~~html
-<body>
-    <input type="text" id="meuId">
-    <button id="btn-inc">Incrementa</button>
-
-    <script src="script.js"></script>
-</body>  
-~~~
-
-- Arquivo js
-
-~~~javascript
-var meuInput = document.getElementById("meuId");
-var botaoInc = document.querySelector("#btn-inc") // ou document.getElementById("btn-inc")
-
-botaoInc.addEventListener('click', incrementa); // ao clicar no botão executa a função 'incrementa'
-
-function incrementa() {
-  meuInput.value++;
+document.querySelector('#idBotao').onclick = function () {
+    alert('Ola');
 }
 ~~~

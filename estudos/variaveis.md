@@ -1,6 +1,6 @@
 # Javascript - Variáveis e Constantes
 
-- Variáveis são basicamente recipientes para valores (como números, ou strings ou textos)
+- Variáveis são basicamente recipientes para valores (como números, strings ou textos)
 
 ### Var
 

@@ -3,9 +3,10 @@
 - Variáveis são basicamente recipientes para valores (como números, ou strings ou textos)
 
 ## Modificadores de escopo
-    - ```var```
-    - ```let```
-    - ```const```
+
+- var: declara uma variável
+- let: declara uma variável de bloco
+- const: declara uma constante de bloco
 
 ### Var
 

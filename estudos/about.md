@@ -25,6 +25,14 @@
 - É um interpretador de Javascript;
 - Permite executar códigos Javascript no servidor;
 
+## Alguns atalhos no Navegador
+
+| Ação | Atalho |
+| - - - | - - - |
+| Abrir o Console | ```F12``` |
+| Abrir o Console | ```Ctrl``` + ```Shift``` + ```J``` |
+
+
 ## Diversos
 
 - Cada aba do navegador é um ambiente de execução diferente que não interfere nos demais.

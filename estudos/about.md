@@ -28,10 +28,9 @@
 ## Alguns atalhos no Navegador
 
 | Ação | Atalho |
-| - - - | - - - |
-| Abrir o Console | ```F12``` |
+| :---: | :---: |
 | Abrir o Console | ```Ctrl``` + ```Shift``` + ```J``` |
-
+| Abrir o Console | ```F12``` |
 
 ## Diversos
 

@@ -2,7 +2,7 @@
 
 ~~~javascript
 function randomNumbers() {
-  return Math.floor(Math.random() * 100) + 1; // 1 - 10
+  return Math.floor(Math.random() * 100) + 1; // 1 - 100
 }
 ~~~
 

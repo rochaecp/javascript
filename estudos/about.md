@@ -1,6 +1,7 @@
 # Sobre o Javascript
 
-- É uma linguagem leve, interpretada (porém alguns javegadores utilizam a compilação Just in Time por performance) e baseada em objetos com funções de primeira classe (suporta passar funções como argumentos para outras funções).
+- É uma linguagem de alto nível, dinâmica, interpretada e não tipada.
+- É uma linguagem leve, interpretada (porém alguns navegadores utilizam a compilação Just in Time por performance) e baseada em objetos com funções de primeira classe (suporta passar funções como argumentos para outras funções).
 - É uma linguagem orientada a objetos com base em protótipos, em vez de ser baseada em classes.
 - É uma linguagem multiparadigma.
 - O padrão JavaScript é ECMAScript.
@@ -12,10 +13,6 @@
 - É case sensitive; 
 - O JavaScript é a única linguagem que pode manipular o DOM (Document Object Model) == permite manipular elementos HTML como se eles fossem objetos;
 - No Javascript o ";" é opcional, porém recomendado;
-
-## Boas e más práticas
-
-- É uma má prática poluir seu HTML com JavaScript (evite escrever javascript inline dentro de elementos HTML!). 
 
 ## Performance
 

@@ -3,6 +3,7 @@
 ## Úteis
 
 - [Template](estudos/template.md)
+- [Boas Práticas](estudos/boas-praticas.md)
 
 ## Introdução
 

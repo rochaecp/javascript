@@ -15,3 +15,9 @@ let botaoReinicio = document.createElement('button');
 botaoReinicio.textContent = 'Texto do botão';
 document.body.appendChild(botaoReinicio);
 ~~~
+
+## Removendo um botão
+
+~~~javascript
+botaoReinicio.parentNode.removeChild(botaoReinicio);
+~~~

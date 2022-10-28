@@ -22,3 +22,10 @@ minhaImg.onclick = function () {
 var btnEnviar = document.querySelector('#btnEnviar');
 btnEnviar.disabled = true;
 ~~~
+
+## Habilitando um botão
+
+~~~javascript
+var btnEnviar = document.querySelector('#btnEnviar');
+btnEnviar.disabled = false;
+~~~

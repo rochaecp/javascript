@@ -126,10 +126,25 @@ function configFimDeJogo() {
 }
 
 function reiniciarJogo() {
+    contagemPalpites = 1;
+    var reiniciarParagrafos = document.querySelectorAll('.resultados p');
 
+    for (var i = 0; i < reiniciarParagrafos.length; i++) {
+        reiniciarParagrafos[i].textContent = '';
+    }
+
+    botaoReinicio.parentNode.removeChild(botaoReinicio);
+
+    campoPalpite.disabled = false;
+    btnEnviarPalpite.disabled = false;
+    campoPalpite.value = '';
+    campoPalpite.focus();
+
+    ultimoResultado.style.backgroundColor = '';
+
+    numeroAleatorio = Math.Floor(Math.Random() * 100) + 1;
 }
 
 btnEnviarPalpite.addEventListener('click', conferirPalpite);
-
 ~~~
 

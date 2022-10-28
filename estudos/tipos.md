@@ -44,6 +44,16 @@ console.log(typeof idade);
 
 ~~~
 
+## Null
+
+- Representa a ausência de valor de uma variável.
+- Em operações matemáticas é considerado zero pelo Javascript.
+- Iniciamos uma variável com null quando desejamos adiar a sua inicialização e para que ela não seja undefined.
+
+~~~javascript
+var nome = null;
+~~~
+
 ## Undefined
 
 - Representa a ausência de valor de uma variável.
@@ -60,16 +70,6 @@ var idade;
 
 console.log(idade + 1);
 // NaN == operação matemática que falhou
-~~~
-
-## Null
-
-- Representa a ausência de valor de uma variável.
-- Em operações matemáticas é considerado zero pelo Javascript.
-- Iniciamos uma variável com null quando desejamos adiar a sua inicialização e para que ela não seja undefined.
-
-~~~javascript
-var nome = null;
 ~~~
 
 ## Array
@@ -93,3 +93,34 @@ var telefones = [
     "222222222"
 ];
 ~~~
+
+## Objeto
+
+- É o tipo de dado mais importante no JavaScript.
+- Um objeto é uma coleção de pares nome/valor ou uma string para mapa de valores.
+- Objetos são colocados entre chaves.
+
+Criando um objeto:
+
+~~~javascript
+var livro = {
+    topico: 'Javascript',
+    disopibilidade: true
+} 
+~~~
+
+Acessando as propriedades do objeto:
+
+~~~javascript
+livro.topico;
+livro['topico'];
+~~~
+
+Criando propriedades no objeto:
+
+~~~javascript
+livro.autor = 'Maurício'; // cria nova propriedade
+livro.conteudos = {}; // {} é um objeto vazio sem propriedades
+~~~
+
+

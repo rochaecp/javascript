@@ -32,6 +32,14 @@
 | Abrir o Console | ```Ctrl``` + ```Shift``` + ```J``` |
 | Abrir o Console | ```F12``` |
 
+## Comentários
+
+~~~javascript
+// comentário de uma linha
+
+/* comentário de várias linhas */
+~~~
+
 ## Diversos
 
 - Cada aba do navegador é um ambiente de execução diferente que não interfere nos demais.

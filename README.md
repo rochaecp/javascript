@@ -42,7 +42,7 @@
 ## DOM (Document Object Model)
 
 1. [DOM - Acessando Elementos](estudos/dom-acessar-elementos.md)
-1. [DOM - Criando Elementos](estudos/dom-criacao.md)
+1. [DOM - Criando e Removendo Elementos](estudos/dom-criacao.md)
 1. [DOM - Modificando o valor de atributos](estudos/dom-atributos.md)
 
 ## POO

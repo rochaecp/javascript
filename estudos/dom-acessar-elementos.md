@@ -39,6 +39,12 @@ for (i = 0; i < todosBotes.length; i++) {
 }
 ~~~
 
+Referenciando todos os parágrafos dentro da div cuja classe é 'resultados':
+
+~~~javascript
+var reiniciar = document.querySelectorAll('.resultados p');
+~~~
+
 ## Closest
 
 ~~~html

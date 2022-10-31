@@ -6,6 +6,16 @@
 
 ~~~javascript
 var pessoas = ['Mauricio', 'Maria', 'Joana'];
+var numeros = []; // vazio
+~~~
+
+Array de objetos:
+
+~~~javascript
+var pontos = [
+    {x:0, y:0},
+    {x:1, y:1}
+];
 ~~~
 
 ## Acessando um item do Array

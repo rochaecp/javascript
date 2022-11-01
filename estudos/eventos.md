@@ -4,7 +4,7 @@
 - Os construtores que monitoram os acontecimentos de eventos são chamados de **event listeners** (ouvidores de eventos).
 - Os blocos de código executados em resposta ao acontecimento do evento são chamados de **event handlers**.
 
-## AddEventListener
+## addEventListener
 
 - O método ``` addEventListener ``` recebe 2 argumentos: o tipo do evento e o nome da função a ser executada (sem parênteses!).
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ~~~
 
-## Onclick
+## onclick
 
 ~~~javascript
 let meuBotao = document.querySelector('#idBotao');
@@ -33,4 +33,11 @@ meuBotao.onclick = function () {
 document.querySelector('#idBotao').onclick = function () {
     alert('Ola');
 }
+~~~
+
+## focus
+
+~~~javascript
+var campoPalpite = document.querySelector('.campoPalpite');
+campoPalpite.focus();
 ~~~

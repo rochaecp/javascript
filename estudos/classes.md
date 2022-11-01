@@ -1,5 +1,10 @@
 # Javascript - POO
 
+## Objetos
+
+- Em JavaScript tudo são objetos.
+- Um objeto é uma coleção de funcionalidades relacionadas armazenadas em um único agrupamento.
+
 ## Classes e Objetos
 
 ~~~javascript

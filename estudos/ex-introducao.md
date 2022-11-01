@@ -21,12 +21,12 @@ concatenada com o nome do usuário.
 
 <body>
 
-	Digite o seu nome:
-	<br>
-	<input type="text" id="nome">
-	<br>
-	<br>
-	<input type="button" id="botao" value="Enviar">
+    Digite o seu nome:
+    <br>
+    <input type="text" id="nome">
+    <br>
+    <br>
+    <input type="button" id="botao" value="Enviar">
    
     <script src="script.js"></script>
 </body>
@@ -73,8 +73,8 @@ function dizBomDia() {
     'click' e dizBomDia. 'click' é um evento (algo que
     acontece numa página HTML) e dizBomDia é a função
     que nós mesmos criamos acima. addEventListener é
-    uma função que fica "escutando" o 
-    botaoEnviar (listener é ouvinte em inglês). Quando o
+    uma função que fica "escutando" o botaoEnviar 
+    (listener é ouvinte em inglês). Quando o
     usuário der um 'click' no botaoEnviar a função
     dizBomDia será executada.
 */

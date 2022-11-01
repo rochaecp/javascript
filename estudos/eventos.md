@@ -37,7 +37,10 @@ document.querySelector('#idBotao').onclick = function () {
 
 ## focus
 
+- A variável que possui uma referência para um campo HTML precisa ter disponível a função focus para funcionar.
+- Ex.: inputs de formulários
+
 ~~~javascript
-var campoPalpite = document.querySelector('.campoPalpite');
+var campoPalpite = document.querySelector('.campoPalpite'); // campoPalpite é um id de um input de formulário
 campoPalpite.focus();
 ~~~

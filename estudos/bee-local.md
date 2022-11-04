@@ -11,6 +11,16 @@ var lines = input.split('\n');
 console.log("Hello World");
 ~~~
 
+## Execução
+
+- Para executar, abra o diretório raiz do projeto e execute o seguinte comando:
+
+~~~bash
+node solucao.js
+~~~
+
+## Submissão
+
 Na submissão substitua apenas a primeira linha por 
 
 ~~~javascript

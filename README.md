@@ -66,6 +66,6 @@
 ### Beecrowd
 
 1. [Executando Localmente](estudos/bee-local.md)
-1. [Executando Localmente](estudos/bee-1000-1009.md)
+1. [1000 - 10009](estudos/bee-1000-1009.md)
 
 

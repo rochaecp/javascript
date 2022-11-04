@@ -62,3 +62,10 @@
 ### Alguns Algoritmos
 
 1. [Fatorial](estudos/fatorial.md)
+
+### Beecrowd
+
+1. [Executando Localmente](estudos/bee-local.md)
+1. [Executando Localmente](estudos/bee-1000-1009.md)
+
+

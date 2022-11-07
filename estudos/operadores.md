@@ -1,59 +1,66 @@
 # Javascript - Operadores
 
-- Operador de Atribuição:  
-    - ``` = ```
-    
-- Operadores de atribuição ampliada (ou atribuição composta):  
-    - ``` += ```
-    - ``` -= ```
-    - ``` *= ```
-    - ``` /= ```
-    - ``` %= ```
-    - ``` &= ``` 
-    - ``` |= ```
-    - ``` ^= ```
-    - ``` >>= ```
-    - ``` <<= ```
+## Operador de Atribuição  
 
-- Operadores Aritméticos:    
-    - ``` + ```
-    - ``` - ```
-    - ``` * ```
-    - ``` / ```
-    - ``` % ```
-    - ``` ++ ```
-    - ``` -- ``` 
+- ``` = ```
 
-- Operadores Relacionais:  
-    - ``` ==  ```
-    - ``` === ``` Igualdade estrita (é estritamente o mesmo?)
-    - ``` !== ```
-    - ``` != ```
-    - ``` > ```
-    - ``` < ```
-    - ``` >= ```
-    - ``` <= ```
+## Operadores de atribuição ampliada (ou atribuição composta)  
 
-- Operadores Lógicos:      
-    - ``` && ``` 
-    - ```|| ``` 
-    - ```! ``` 
-    - ``` !! ```
+- ``` += ```
+- ``` -= ```
+- ``` *= ```
+- ``` /= ```
+- ``` %= ```
+- ``` &= ``` 
+- ``` |= ```
+- ``` ^= ```
+- ``` >>= ```
+- ``` <<= ```
 
-- Operadores Bitwise (bit a bit):   
-    - ``` & ``` 
-    - ``` | ```
-    - ``` ^ ```
-    - ``` << ```
-    - ``` >> ```
-    - ``` ~ ```
+## Operadores Aritméticos 
 
-- Outros:  
-    - ``` spread ```
-    - ``` delete ```
-    - ``` typeof ```
-    - ``` in ```
-    - ``` instanceof ```
+- ``` + ```
+- ``` - ```
+- ``` * ```
+- ``` / ```
+- ``` % ```
+- ``` ++ ```
+- ``` -- ``` 
+
+## Operadores Relacionais  
+
+- ``` ==  ```
+- ``` === ``` Igualdade estrita (é estritamente o mesmo?)
+- ``` !== ```
+- ``` != ```
+- ``` > ```
+- ``` < ```
+- ``` >= ```
+- ``` <= ```
+
+## Operadores Lógicos    
+
+- ``` && ``` 
+- ```|| ``` 
+- ```! ``` 
+- ``` !! ```
+
+## Operadores Bitwise (bit a bit)   
+
+- ``` & ``` 
+- ``` | ```
+- ``` ^ ```
+- ``` << ```
+- ``` >> ```
+- ``` ~ ```
+
+## Outros
+
+- ``` spread ```
+- ``` delete ```
+- ``` typeof ```
+- ``` in ```
+- ``` instanceof ```
 
 ## Operador Condicional
 

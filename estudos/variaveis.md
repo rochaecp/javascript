@@ -4,7 +4,7 @@
 
 ### Var
 
-- Declara uma variável.
+- Declara uma variável globalmente.
 - Permite redeclarar a mesma variável.
 
 ~~~javascript
@@ -14,11 +14,15 @@ var texto = "bbb";
 
 ### Let
 
-- Declara uma variável de bloco.
+- Declara uma variável local no escopo do bloco atual.
 - Não permite redeclarar a mesma variável.
+- É recomendável utilizar let e não var, exceto se quiser oferecer suporte para versões antigas de navegadores.
 
 ~~~javascript
-// não permite redeclarar a mesma variável
+if (x) {
+    let foo;
+    let foo; // Emite um TypeError.
+}
 ~~~
 
 ### Const

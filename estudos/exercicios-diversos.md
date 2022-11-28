@@ -12,17 +12,15 @@
         - Função 2: multiplicaTudo - é uma função que receberá 4 parâmetros e retornará a multiplicação dos 4 parâmetros.
         - Função 3: exibeSaida - é uma função que irá exibir a saída da função 1 em um parágrafo e a saída da função 2 em OUTRO parágrafo.
 
-## Switch e Funções
-
-### 1) Mostrador de mês
+### 2) Mostrador de mês
 
 - Especificação:
     - O usuário irá fornecer um número de 1 a 12 em um input number. Ao clicar no botão "Mostrar Resultado" deve aparecer em um parágrafo o mês correspondente ao número (ex.: 1 corresponde a Janeiro).
 - Dica:    
-    - Criar uma função que recebe um número como parámetro, dentro dela utiliza um switch e retorna o mês correspondente ao número.
+    - Criar uma função que recebe um número como parámetro, dentro dela utiliza um **switch** e retorna o mês correspondente ao número.
     - Criar uma função chamada exibeSaida, que chama a função anterior e exibe o resultado dela na tela em um parágrafo.
 
-### 2) Mostrador de semana
+### 3) Mostrador de semana
 
 - Especificação:
     - O usuário irá fornecer um número de 1 a 7 em um input number. Ao clicar no botão "Mostrar Resultado" deve aparecer em um parágrafo o dia da semana correspondente ao número (ex.: 1 corresponde a Domingo, 2 corresponde a Segunda-feira, etc).

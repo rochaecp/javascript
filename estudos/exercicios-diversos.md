@@ -2,7 +2,7 @@
 
 ## Funções
 
-1. ### Somador e Multiplicador de 4 números
+### Somador e Multiplicador de 4 números
 
 - O usuário fornecerá 4 números via input number. Ao clicar no botão "Exibir Resultado" deve aparecer em um parágrafo a soma dos 4 números e em outro parágrafo a multiplicação dos 4 números.
 - Dica:    

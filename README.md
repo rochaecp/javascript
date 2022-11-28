@@ -55,6 +55,7 @@
 ### Geral
 
 1. [Exemplo Introdutório](estudos/ex-introducao.md)
+1. [Exercícios Diversos](estudos/exercicios-diversos.md)
 1. [Dark Mode em PDFs no Navegador](estudos/dark-mode.md)
 1. [Criando parágrafos](estudos/ex-cria-paragrafo.md)
 1. [Guardando dados no navegador utilizando Localstorage](estudos/ex-localstorage.md)

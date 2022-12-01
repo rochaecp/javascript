@@ -33,15 +33,9 @@
 ### 1) Calculador de Tabuada 1
 
 - Especificação:
-    - O usuário fornece um número e ao clicar no botão "Calcular", a tabuada do número digitado pelo usuário será exibida em um parágrafo. 
+    - O usuário fornece um número e ao clicar no botão "Calcular", a tabuada de 0 a 10 do número digitado pelo usuário será exibida em um parágrafo. 
 
-### 2) Calculador de Tabuada 2
-
-- Especificação:
-    - O usuário fornece um número para calcularmos a tabuada, um número de início e um número de fim.
-    - Ao clicar no botão "Calcular", a tabuada do número digitado pelo usuário será exibida em um parágrafo (do número de início até o número de fim). 
-
-### 3) Repetidor de palavra
+### 2) Repetidor de palavra
 
 - Especificação:
     - O usuário fornece uma palavra em um input text. e ao pressionar o botão "Exibir" será exibido em um parágrafo 10 vezes (uma por linha) a palavra digitada pelo usuário.
@@ -53,6 +47,12 @@
 
 - Especificação:
     - O usuário irá digitar em um campo input number o valor n e ao pressionar o botão "Exibir", será exibido em um parágrafo repetindo n vezes (uma por linha) o texto "Bazinga".
+
+### 2) Calculador de Tabuada 2
+
+- Especificação:
+    - O usuário fornece um número para calcularmos a tabuada, um número de início e um número de fim.
+    - Ao clicar no botão "Calcular", a tabuada do número digitado pelo usuário será exibida em um parágrafo (do número de início até o número de fim). 
     
 ## Arrays
 

@@ -2,15 +2,13 @@
 
 - Variáveis são basicamente recipientes para valores (como números, strings ou textos)
 - Há 4 maneiras de declarar uma variável em JavaScript:
-    1. Usando ``` var ```
-    1. Usando ``` let ```
-    1. Usando ``` const ```
-    1. Não utilizando nada
+    - Usando ``` var ```
+    - Usando ``` let ```
+    - Usando ``` const ```
+    - Não utilizando nada
 - Sempre declare variáveis utilizando ``` var ```, ``` let ``` ou ``` const ```
 
-
-
-### Var
+## Var
 
 - Declara uma variável globalmente.
 - Permite redeclarar a mesma variável.
@@ -22,7 +20,7 @@ var texto = "aaa";
 var texto = "bbb";
 ~~~
 
-### Let
+## Let
 
 - Declara uma variável local no escopo do bloco atual.
 - Não permite redeclarar a mesma variável.
@@ -36,7 +34,7 @@ if (x) {
 }
 ~~~
 
-### Const
+## Const
 
 - Declara uma constante de bloco.
 - É utilizada sempre que não precisamos fazer alterações em uma variável.

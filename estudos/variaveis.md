@@ -8,6 +8,8 @@
     - Não utilizando nada
 - Sempre declare variáveis utilizando ``` var ```, ``` let ``` ou ``` const ```
 
+> Nomes de variáveis são case sensitive em Javascript
+
 ## Var
 
 - Declara uma variável globalmente.

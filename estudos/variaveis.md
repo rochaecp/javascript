@@ -1,14 +1,23 @@
 # Javascript - Variáveis e Constantes
 
-- Variáveis são basicamente recipientes para valores (como números, strings ou textos)
-- Há 4 maneiras de declarar uma variável em JavaScript:
-    - Usando ``` var ```
-    - Usando ``` let ```
-    - Usando ``` const ```
-    - Não utilizando nada
-- Sempre declare variáveis utilizando ``` var ```, ``` let ``` ou ``` const ```
+Variáveis são basicamente recipientes para valores (como números, strings ou textos).  
+Nomes de variáveis são case sensitive em Javascript.
 
-> Nomes de variáveis são case sensitive em Javascript
+## Algumas convenções
+
+Utilizar o ```_``` no início do nome de variáveis privadas.  
+
+## Declarando variáveis com Javascript
+
+É uma boa prática declarar as variáveis no início do script.  
+Há 4 maneiras de declarar uma variável em JavaScript:
+- Usando ```var```.
+- Usando ```let```.
+- Usando ```const``` (para constantes).
+- Não utilizando nada.
+
+Sempre declare variáveis utilizando ```var```, ```let``` ou ```const```.  
+Após a declaração, a variável possuirá o valor ```undefined```.  
 
 ## Var
 
@@ -34,6 +43,16 @@ if (x) {
     let foo;
     let foo; // Emite um TypeError.
 }
+~~~
+
+~~~javascript
+let nome = "Mauricio", idade = 30, estado = 'CE'; 
+~~~
+
+~~~javascript
+let nome = "Mauricio", 
+idade = 30, 
+estado = 'CE'; 
 ~~~
 
 ## Const

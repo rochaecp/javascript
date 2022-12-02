@@ -1,12 +1,34 @@
 # Javascript - If..Else
 
+## If
+
+~~~javascript
+var notaAluno = 10;
+
+if (notaAluno >= 6)
+  console.log("Aluno aprovado");
+~~~
 
 ## If..Else
 
 ~~~javascript
-var grade = 10;
-if (grade >= 6)
-  console.log("student was approved");
+var notaAluno = 10;
+
+if (notaAluno >= 6)
+  console.log("Aluno aprovado");
 else 
-  console.log("student was not approved");
+  console.log("Aluno reprovado");
+~~~
+
+## If..Else If..
+
+~~~javascript
+var notaAluno = 10;
+
+if (notaAluno == 10)
+  console.log("Aluno aprovado com louvor");
+else if (notaAluno >= 6)
+  console.log("Aluno aprovado");
+else
+  console.log("Aluno reprovado");
 ~~~

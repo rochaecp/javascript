@@ -3,6 +3,12 @@
 ## For
 
 ~~~javascript
+for (let i = 1; i <= 10; i++) {
+    console.log(i + " Olá mundo");
+}
+~~~
+
+~~~javascript
 const myArray = ['one', 'two', 'three'];
 
 for (let i = 0; i < myArray.length; i++) {
@@ -11,7 +17,7 @@ for (let i = 0; i < myArray.length; i++) {
 }
 ~~~
 
-## For..in
+## For ... in
 
 - Usado para acessar propriedades de um objeto.
 - Não deve ser usado em Arrays, onde a ordem é importante, visto que ele possui uma ordem arbitrária.
@@ -23,7 +29,7 @@ for (let prop in funcionario)
     console.log(`${prop} : ${funcionario[prop]}`);
 ~~~
 
-## For..of
+## For ... of
 
 ~~~javascript
 const arr = [ 10, 20, 30 ];

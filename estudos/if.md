@@ -1,4 +1,4 @@
-# Javascript - If..Else
+# Javascript - Comando If
 
 ## If
 

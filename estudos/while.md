@@ -3,21 +3,21 @@
 ## While
 
 ~~~javascript
-var count = 0;
+var i = 0;
 
-while (count <= 10) {
-    console.log(count);
-    count++;
+while (i <= 10) {
+    console.log(i);
+    i++;
 }
 ~~~
 
 ## Do..While
 
 ~~~javascript javascript
-var count = 0;
+var i = 0;
 
 do {
-    console.log(count);
-    count++;
-} while (count <= 10);
+    console.log(i);
+    i++;
+} while (i <= 10);
 ~~~

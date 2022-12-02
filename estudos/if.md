@@ -1,6 +1,6 @@
-# Javascript - Comando If
+# Javascript - Comando if
 
-## If
+## if
 
 ~~~javascript
 var notaAluno = 10;
@@ -9,7 +9,7 @@ if (notaAluno >= 6)
   console.log("Aluno aprovado");
 ~~~
 
-## If..Else
+## if ... else
 
 ~~~javascript
 var notaAluno = 10;
@@ -20,7 +20,7 @@ else
   console.log("Aluno reprovado");
 ~~~
 
-## If..Else If..
+## if ... else if ... else
 
 ~~~javascript
 var notaAluno = 10;

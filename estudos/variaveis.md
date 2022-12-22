@@ -1,6 +1,6 @@
 # Javascript - Variáveis e Constantes
 
-Variáveis são basicamente recipientes para valores (como números, strings ou textos).  
+Variáveis são basicamente recipientes para armazenar valores valores (como números, strings ou textos).  
 Nomes de variáveis são case sensitive em Javascript.
 
 ## Algumas convenções

@@ -1,27 +1,78 @@
 # Javascript - Strings
 
+## Criando uma String
+
 ~~~javascript
-var txt = 'aaa';
-var size = txt.length;                  
-var pos = txt.indexOf('a');            
-var pos = txt.indexOf('a', 2);         
-var pos = txt.lastIndexOf('a');        
-var pos = txt.lastIndexOf('a', 12);    
-var pos = str.search('a');               
-var myStr = str.slice(0, 5);               
-var myStr = str.slice(-1);                 
-var myStr = str.substring(0, 5);           
-var myStr = str.substr(0, 8);              
-var myStr = str.substr(-4);                
-var myStr = str.replace('aaa', 'bbb');     
-var myStr = str.replace(/aaa/i, 'bbb');    
-var myStr = str.replace(/aaa/g, 'bbb');    
-var myStr = str.replace(/aaa/ig, 'bbb');   
-var n = nome.toLowerCase();    
-var n = nome.toUpperCase();
-var myStr = text1.concat('#',text2);  
-var myStr = str.trim();               
-var myStr = str.charAt(0);            
-var myStr = str.charCodeAt(0);        
-var arr = str.split(',');
+var nome = 'Maurício';
+~~~
+
+## Obtendo o tamanho da String
+
+~~~javascript
+var tam = nome.length;
+~~~
+
+~~~javascript
+var tam = 'Maurício'.length;
+~~~
+
+## Convertendo para Maiúsculo
+
+~~~javascript
+var maiusc = nome.toUpperCase();
+~~~
+
+## Convertendo para Minúsculo
+
+~~~javascript
+var minusc = nome.toLowerCase();
+~~~
+
+## Concatenando strings
+
+~~~javascript
+var nome = 'Maurício';
+console.log('Bom dia ' + nome);
+~~~
+
+Utilizando template strings:
+
+~~~javascript
+var nome = 'Maurício';
+console.log(`Bom dia ${nome}`);
+~~~
+
+## Obtendo um índice de um trecho da string - indexOf()
+
+Obtém o índice a partir do qual a substring 'rício' aparece pela primeira vez na string nome.  
+A contagem inicia em zero. Se não encontrar retorna -1.
+
+~~~javascript
+var indice = nome.indexOf('rício');
+~~~
+
+## Obtendo um índice de um trecho da string - lastIndexOf()
+
+~~~javascript
+var nome = 'Maurício';
+var indice = nome.lastIndexOf('o'); // retorna 7
+~~~
+
+## Substituindo uma parte da string por outra - replace()
+
+~~~javascript
+var novoNome = nome.replace('Mau', 'Bom');
+~~~
+
+## Obtendo uma fatia de uma string - slice()
+
+~~~javascript
+var novoNome = nome.slice(1, 3); // da pos 1 até a pos 3
+~~~
+
+## Removendo espaços iniciais e finais de uma string - trim()
+
+~~~javascript
+var minhaStr = '   bom dia   ';
+var strSemEspaco = minhaStr.trim();
 ~~~

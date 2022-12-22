@@ -30,7 +30,7 @@
 
 ## Operadores Relacionais  
 
-- ``` ==  ```
+- ``` ==  ``` comparação mais fraca
 - ``` === ``` Igualdade estrita (é estritamente o mesmo?)
 - ``` !== ```
 - ``` != ```

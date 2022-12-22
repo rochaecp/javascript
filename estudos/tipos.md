@@ -1,17 +1,21 @@
 # Javascript - Tipos de Dados
 
-- O tipo de uma variável é definido de acordo com o seu valor.
-- Tipos Básicos de Dados
-    - ``` number ```
-    - ``` string ```
-    - ``` boolean ``` - typeof true -> boolean
-    - ``` null ``` - typeof null -> object
-    - ``` undefined ```
-    - ``` symbol ```
-- Tipos Derivados 
-    - ``` Array ```
-    - ``` Object ```
-    - ``` Function ```    
+O tipo de uma variável é definido de acordo com o seu valor.  
+
+## Tipos Básicos de Dados 
+
+- ``` number ```
+- ``` string ```
+- ``` boolean ``` - typeof true -> boolean
+- ``` null ``` - typeof null -> object
+- ``` undefined ```
+- ``` symbol ```
+
+## Tipos Derivados 
+
+- ``` Array ```
+- ``` Object ```
+- ``` Function ```    
 
 ## Operador typeof
 
@@ -41,7 +45,8 @@ console.log(typeof idade);
 - Definido pelos valores true ou false.
 
 ~~~javascript
-
+var vaiChover = true;
+var estaFrio = false;
 ~~~
 
 ## Null

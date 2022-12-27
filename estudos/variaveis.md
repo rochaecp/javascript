@@ -91,13 +91,61 @@ let x = 2;
 
 ## Const
 
-- É utilizada em JavaScript desde 2015 com o ES6.
-- Declara uma constante de bloco.
-- É utilizada sempre que não precisamos fazer alterações em uma variável.
-- Ao definirmos uma constante precisamos dar um valor a ela imediatamente.
-- Ao ser definido o valor não poderá mais ser modificado.
-- "imutabilidade".
+É utilizada em JavaScript desde 2015 com o ES6.  
+Declara uma constante de bloco.  
+Não permite redeclarar a constante.  
+É utilizada sempre que não precisamos fazer alterações em uma variável.  
+Ao definirmos uma constante precisamos dar um valor a ela imediatamente.  
+Ao ser definido o valor não poderá mais ser modificado.  
+"imutabilidade".  
+
+> A palavra const não define um valor constante mas sim uma referência constante a um valor.
+
+#### Quando declarar utilizando const
+
+Utilizar const ao declarar:
+
+1. Um Array
+1. Um Object
+1. Uma Function
+1. Uma RegExp
+
+> Podemos modificar os elementos de um Array constante ou as propriedades de um objeto constante.
+
+#### Declarando uma variável utilizando const
 
 ~~~javascript
 const melhorLinguagem = "Javascript";
+~~~
+
+#### Tentando modificar uma variável declarada com o const
+
+~~~javascript
+const PI = 3.14;
+PI = PI + 10; // gera um erro
+~~~
+
+#### Modificando um Array declarado com const
+
+~~~javascript
+const nomes = ['mauricio', 'Sandra', 'Vitória'];
+nomes[0] = 'Maurício'; // permite modificar um elemento
+nomes.push('Antônia'); // permite adicionar um elemento
+
+console.log(nomes);
+~~~
+
+#### Tentando reatribuir um Array declarado com const
+
+~~~javascript
+const nomes = ['mauricio', 'Sandra', 'Vitória'];
+nomes = ['Joana', 'Gregória']; // gera um erro
+~~~
+
+### Modificando um Objeto declarado com const
+
+~~~javascript
+const pessoa = {nome: 'Maurício', idade: 30};
+pessoa.idade = 31; // permite alterar propriedade
+pessoa.peso = 85; // permite acrescentar uma propriedade
 ~~~

@@ -67,7 +67,7 @@
 | ```~```   | NOT				|			|
 | ```^```   | XOR					|			|
 | ```<<```  |	left SHIFT				|			|
-| ```>>```  |	right SHIFT				|	5 >> 1 0101 >> 1 		|
+| ```>>```  |	right SHIFT				|	5 >> 1 gera 2 pois 0101 vira 0010 		|
 | ```>>>```  |	unsigned right SHIFT				|			|
 
 

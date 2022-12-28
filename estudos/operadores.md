@@ -2,66 +2,82 @@
 
 ## Operador de Atribuição  
 
-- ``` = ```
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+|```=```	| Atribuição 		| 			|
+
+
 
 ## Operadores de atribuição ampliada (ou atribuição composta)  
 
-- ``` += ```
-- ``` -= ```
-- ``` *= ```
-- ``` /= ```
-- ``` %= ```
-- ``` &= ``` 
-- ``` |= ```
-- ``` ^= ```
-- ``` >>= ```
-- ``` <<= ```
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+| ```+=```	|					|			|
+| ```-=```	|					|			|
+| ```*=```	|					|			|
+| ```/=```	|					|			|
+| ```%=```	|					|			|
+| ```&=``` 	|					|			|
+| ```\|=```	|					|			|
+| ```^=```	|					|			|
+| ```>>=```	|					|			|
+| ```<<=```	|					|			|
 
 ## Operadores Aritméticos 
 
-- ``` + ```
-- ``` - ```
-- ``` * ```
-- ``` * ``` exponenciação, ex.: 7 ** 2 == 49 
-- ``` / ```
-- ``` % ```
-- ``` ++ ```
-- ``` -- ``` 
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+| ```+```	|					|			|
+| ```-```	|					|			|
+| ```*```	|					|			|
+| ```**```  |exponenciação		|7 ** 2 == 49 |
+| ```/```   |					|			|
+| ```%```   |					|			|
+| ```++```  |					|			|
+| ```--```  |					|			|
 
 ## Operadores Relacionais  
 
-- ``` ==  ``` comparação mais fraca
-- ``` === ``` Igualdade estrita (é estritamente o mesmo?)
-- ``` !== ```
-- ``` != ```
-- ``` > ```
-- ``` < ```
-- ``` >= ```
-- ``` <= ```
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+| ```==```  |comparação mais fraca|			| 
+| ```===``` |Igualdade estrita	|			| 
+| ```!==``` |					|			|
+| ```!=```  |					|			|
+| ```>```	|					|			|
+| ```<```	|					|			|
+| ```>=```	|					|			|
+| ```<=```	|					|			|
 
 ## Operadores Lógicos    
 
-- ``` && ``` 
-- ```|| ``` 
-- ```! ``` 
-- ``` !! ```
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+| ```&&```  |					|			| 
+| ```\|\|```  |					|			| 
+| ```!```   |					|			| 
+| ```!!```  |					|			| 
 
 ## Operadores Bitwise (bit a bit)   
 
-- ``` & ``` 
-- ``` | ```
-- ``` ^ ```
-- ``` << ```
-- ``` >> ```
-- ``` ~ ```
+| Operador 	| Nome do Operador 	| Exemplo 	|
+| :---: 	| :---: 			| :---: 	|
+| ```&```   |					|			| 
+| ```\|```   |					|			|
+| ```^```   |					|			|
+| ```<<```  |					|			|
+| ```>>```  |					|			|
+| ```~```   |					|			|
 
 ## Outros
 
-- ``` spread ```
-- ``` delete ```
-- ``` typeof ```
-- ``` in ```
-- ``` instanceof ```
+| Operador 			| Nome do Operador 	| Exemplo 	|
+| :---: 			| :---: 			| :---: 	|
+| ```spread```		|					|			|
+| ```delete```		|					|			|
+| ```typeof```		|					|			|
+| ```in```			|					|			|
+| ```instanceof```	|					|			|
 
 ## Operador Condicional
 

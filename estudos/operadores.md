@@ -12,7 +12,7 @@
 
 | Operador 	| Nome do Operador 	| Exemplo 	|
 | :---: 	| :---: 			| :---: 	|
-| ```+=```	|					|			|
+| ```+=```	|	Atribuição de adição |			|
 | ```-=```	|					|			|
 | ```*=```	|					|			|
 | ```/=```	|					|			|
@@ -27,23 +27,23 @@
 
 | Operador 	| Nome do Operador 	| Exemplo 	|
 | :---: 	| :---: 			| :---: 	|
-| ```+```	|					|			|
-| ```-```	|					|			|
-| ```*```	|					|			|
-| ```**```  |exponenciação		|7 ** 2 == 49 |
-| ```/```   |					|			|
-| ```%```   |					|			|
-| ```++```  |					|			|
-| ```--```  |					|			|
+| ```+```	| Adição|			|
+| ```-```	| Subtração |			|
+| ```*```	| Multiplicação |			|
+| ```**```  | Exponenciação |7 ** 2 == 49 |
+| ```/```   | Divisão |			|
+| ```%```   | Módulo |			|
+| ```++```  | Pré ou pós incremento |			|
+| ```--```  | Pré ou pós decremento |			|
 
 ## Operadores Relacionais  
 
 | Operador 	| Nome do Operador 	| Exemplo 	|
 | :---: 	| :---: 			| :---: 	|
-| ```==```  |comparação mais fraca|			| 
-| ```===``` |Igualdade estrita	|			| 
-| ```!==``` |					|			|
-| ```!=```  |					|			|
+| ```==```  | Igualdade em valor|			| 
+| ```===``` | Igualdade em valor e em tipo	|			| 
+| ```!=```  |	Desigualdade em valor |			|
+| ```!==``` | Desigualdade em valor e em tipo |			|
 | ```>```	|					|			|
 | ```<```	|					|			|
 | ```>=```	|					|			|
@@ -53,33 +53,40 @@
 
 | Operador 	| Nome do Operador 	| Exemplo 	|
 | :---: 	| :---: 			| :---: 	|
-| ```&&```  |					|			| 
-| ```\|\|```  |					|			| 
-| ```!```   |					|			| 
+| ```&&```  | E lógico					|			| 
+| ```\|\|```| OU lógico					|			| 
+| ```!```   | NÃO lógico					|			| 
 | ```!!```  |					|			| 
 
 ## Operadores Bitwise (bit a bit)   
 
 | Operador 	| Nome do Operador 	| Exemplo 	|
 | :---: 	| :---: 			| :---: 	|
-| ```&```   |					|			| 
-| ```\|```   |					|			|
-| ```^```   |					|			|
-| ```<<```  |					|			|
-| ```>>```  |					|			|
-| ```~```   |					|			|
+| ```&```   | AND					|			| 
+| ```\|```  | OR					|			|
+| ```~```   | NOT				|			|
+| ```^```   | XOR					|			|
+| ```<<```  |	left SHIFT				|			|
+| ```>>```  |	right SHIFT				|	5 >> 1 0101 >> 1 		|
+| ```>>>```  |	unsigned right SHIFT				|			|
 
-## Outros
+
+## Operadores de Tipo
+
+| Operador 			| Nome do Operador 	| Exemplo 	|
+| :---: 			| :---: 			| :---: 	|
+| ```typeof```		|					|			|
+| ```instanceof```	|					|			|
+
+# Outros
 
 | Operador 			| Nome do Operador 	| Exemplo 	|
 | :---: 			| :---: 			| :---: 	|
 | ```spread```		|					|			|
 | ```delete```		|					|			|
-| ```typeof```		|					|			|
 | ```in```			|					|			|
-| ```instanceof```	|					|			|
 
-## Operador Condicional
+## Operador Condicional (Operador ternário)
 
 ~~~javascript
 x >= 6 ? 'foo' : 'bar';

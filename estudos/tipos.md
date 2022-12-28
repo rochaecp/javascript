@@ -4,18 +4,20 @@ O tipo de uma variável é definido de acordo com o seu valor.
 
 ## Tipos Básicos de Dados 
 
-- ``` number ```
-- ``` string ```
-- ``` boolean ``` - typeof true -> boolean
-- ``` null ``` - typeof null -> object
-- ``` undefined ```
-- ``` symbol ```
+- ```string```
+- ```number```
+- ```bigint```
+- ```boolean``` 
+- ```undefined```
+- ```null``` 
+- ```symbol```
+- ```object``` 
 
-## Tipos Derivados 
+O tipo object pode conter:
 
-- ``` Array ```
-- ``` Object ```
-- ``` Function ```    
+- ```Array```
+- ```Object```
+- ```date```    
 
 ## Operador typeof
 
@@ -29,7 +31,8 @@ console.log(typeof idade);
 - Todo número é do tipo number.
 
 ~~~javascript
-
+let idade = 30;
+let peso = 90.1;
 ~~~
 
 ## String
@@ -37,7 +40,8 @@ console.log(typeof idade);
 - Todo caractere dentro de aspas simples ou duplas é uma string.
 
 ~~~javascript
-
+let nome = 'Maurício';
+let estado = 'RS';
 ~~~
 
 ## Boolean
@@ -77,7 +81,33 @@ console.log(idade + 1);
 // NaN == operação matemática que falhou
 ~~~
 
-## Array
+## Objeto
+
+- É o tipo de dado mais importante no JavaScript.
+- Um objeto é uma coleção de pares nome/valor ou uma string para mapa de valores.
+- Objetos são colocados entre chaves.
+
+Criando um objeto:
+
+~~~javascript
+const pessoa = {nome: 'Maurício', idade: 30};
+~~~
+
+Acessando as propriedades do objeto:
+
+~~~javascript
+livro.topico;
+livro['topico'];
+~~~
+
+Criando propriedades no objeto:
+
+~~~javascript
+livro.autor = 'Maurício'; // cria nova propriedade
+livro.conteudos = {}; // {} é um objeto vazio sem propriedades
+~~~
+
+## Objeto Array
 
 - É uma coleção de dados.
 - Em JS, num mesmo array podemos ter diferentes tipos de dados.
@@ -99,33 +129,8 @@ var telefones = [
 ];
 ~~~
 
-## Objeto
-
-- É o tipo de dado mais importante no JavaScript.
-- Um objeto é uma coleção de pares nome/valor ou uma string para mapa de valores.
-- Objetos são colocados entre chaves.
-
-Criando um objeto:
+## Objeto Date 
 
 ~~~javascript
-var livro = {
-    topico: 'Javascript',
-    disopibilidade: true
-} 
+const date = new Date('2022-12-28');
 ~~~
-
-Acessando as propriedades do objeto:
-
-~~~javascript
-livro.topico;
-livro['topico'];
-~~~
-
-Criando propriedades no objeto:
-
-~~~javascript
-livro.autor = 'Maurício'; // cria nova propriedade
-livro.conteudos = {}; // {} é um objeto vazio sem propriedades
-~~~
-
-

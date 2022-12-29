@@ -47,7 +47,7 @@
 
 ## POO
 
-1. [Classes, Objetos e Métodos](estudos/classes.md)
+1. [Objetos](estudos/objetos.md)
 1. [Herança](estudos/heranca.md)
 
 ## Exemplos

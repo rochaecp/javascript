@@ -2,22 +2,23 @@
 
 ## Úteis
 
-- [Template](estudos/template.md)
-- [Boas Práticas](estudos/boas-praticas.md)
-- [Sobre APIs da Web disponíveis](estudos/apis-web.md)
+1. [Template](estudos/template.md)
+1. [Boas Práticas](estudos/boas-praticas.md)
+1. [Sobre APIs da Web disponíveis](estudos/apis-web.md)
+1. [Inserindo JS na página](estudos/inserindo.md)
 
 ## Introdução
 
 1. [Sobre o Javascript](estudos/about.md)
-1. [Inserindo JS na página](estudos/inserindo.md)
 1. [Tipos de Dados](estudos/tipos.md)
 1. [Variáveis e Constantes](estudos/variaveis.md)
-1. [Casting](estudos/casting.md)
 1. [Operadores](estudos/operadores.md)
 1. [Output](estudos/output.md)
+1. [Funções](estudos/funcoes.md)
 1. [Strings](estudos/strings.md)
 1. [Números](estudos/numeros.md)
 1. [Math](estudos/math.md)
+1. [Casting](estudos/casting.md)
 1. [Gerar Números Aleatórios](estudos/aleatorios.md)
 1. [Datas](estudos/datas.md)
 
@@ -35,7 +36,6 @@
 
 ## Outros
 
-1. [Funções](estudos/funcoes.md)
 1. [Eventos](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
 

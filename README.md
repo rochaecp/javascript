@@ -18,8 +18,8 @@
 1. [Strings](estudos/strings.md)
 1. [Números](estudos/numeros.md)
 1. [Math](estudos/math.md)
-1. [Casting](estudos/casting.md)
 1. [Gerar Números Aleatórios](estudos/aleatorios.md)
+1. [Casting](estudos/casting.md)
 1. [Datas](estudos/datas.md)
 
 ## Comandos Condicionais e de Repetição

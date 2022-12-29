@@ -1,6 +1,5 @@
 # Javascript - Objetos
 
-Em JavaScript tudo são objetos.  
 Um objeto é uma coleção de funcionalidades relacionadas e armazenadas em um único agrupamento.  
 
 ## Criando um objeto
@@ -25,7 +24,7 @@ pessoa.signo = 'capricornio';
 ## Deletando uma propriedade de um objeto
 
 ~~~javascript
-delete pessoa.email;  
+delete pessoa.signo;  
 ~~~
 
 ## Obtendo as keys de um objeto
@@ -62,43 +61,4 @@ Object.freeze(pessoa);
 
 ~~~javascript
 Object.seal(pessoa);  
-~~~
-
-
-## Ex.: 
-
-~~~javascript
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-p = new Person('Mauricio');
-console.log(p.name);
-~~~
-
-## Attribute
-
-~~~javascript
-var myObj = {
-  prop1: "my property 1"
-};
-~~~
-
-~~~javascript
-var propertyName = 'test';
-var myObj = {};
-myObj[propertyName] = "property value";
-console.log(myObj);
-~~~
-
-## Methods
-
-~~~javascript
-var myObj = {
-  sum: function sum(a, b) {
-    return a + b;
-  }
-};
-console.log(myObj.sum(2, 3));
 ~~~

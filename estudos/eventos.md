@@ -1,8 +1,18 @@
 # Javascript - Eventos
 
-- Eventos são ações que acontencem no navegador. 
-- Os construtores que monitoram os acontecimentos de eventos são chamados de **event listeners** (ouvidores de eventos).
-- Os blocos de código executados em resposta ao acontecimento do evento são chamados de **event handlers**.
+Eventos são ações que acontencem no navegador. Essas ações podem ser do usuário ou do próprio navegador.  
+Os construtores que monitoram os acontecimentos de eventos são chamados de **event listeners** (ouvidores de eventos).  
+Os blocos de código executados em resposta ao acontecimento do evento são chamados de **event handlers**.  
+
+## Alguns eventos HTML comuns
+
+- onchange
+- onclick
+- onmouseover
+- onmouseout
+- onkeydown
+- onload
+- Outros [aqui](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## addEventListener
 

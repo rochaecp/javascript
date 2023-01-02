@@ -1,4 +1,4 @@
-# Javascript - Casting
+# Javascript
 
 ## Úteis
 

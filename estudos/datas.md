@@ -1,6 +1,14 @@
 # Javascript - Datas
 
-- Os mêses são contados de 0 a 11 em Javascript.
+Os mêses são contados de 0 a 11 em Javascript.
+
+## Exibindo a data atual
+
+~~~javascript
+console.log(Date());
+~~~
+
+## Outros
 
 ~~~javascript
 var date = new Date();              

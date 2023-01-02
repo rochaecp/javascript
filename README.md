@@ -36,7 +36,7 @@
 
 ## Outros
 
-1. [Eventos](estudos/eventos.md)
+1. [Eventos HTML](estudos/eventos.md)
 1. [Iterator](estudos/iterator.md)
 
 ## DOM (Document Object Model)

@@ -2,7 +2,14 @@
 
 ## Legibilidade
 
-- Evitar construir linhas com mais de 80 caracteres.
+Evitar construir linhas com mais de 80 caracteres.  
+Se uma instrução JavaScript não couber em uma linha, o melhor lugar para interrompê-la é após um operador:
+
+~~~javascript
+document.getElementById("exemplo").innerHTML =
+"Bom dia!";
+~~~
+  
 
 ## Páginas Web
 

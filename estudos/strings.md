@@ -9,6 +9,14 @@ let nome = 'Maurício';
 let texto = "Ele se chama 'Mauricio'";
 ~~~
 
+#### Com o operador new (não recomendável)
+
+Objetos String criados com o new podem deixar a execução lenta e produzir resultados inesperados.
+
+~~~javascript
+let nome2 = new String("Mauricio");
+~~~
+
 ## Obtendo o tamanho da String
 
 ~~~javascript

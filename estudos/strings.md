@@ -1,9 +1,12 @@
 # Javascript - Strings
 
+Strings são conjuntos de zero ou mais caracteres entre aspas simples ou duplas.  
+
 ## Criando uma String
 
 ~~~javascript
-var nome = 'Maurício';
+let nome = 'Maurício';
+let texto = "Ele se chama 'Mauricio'";
 ~~~
 
 ## Obtendo o tamanho da String
@@ -76,3 +79,18 @@ var novoNome = nome.slice(1, 3); // da pos 1 até a pos 3
 var minhaStr = '   bom dia   ';
 var strSemEspaco = minhaStr.trim();
 ~~~
+
+## Caracteres de escape
+
+| Caractere | Descrição |
+| :---:     | :---:     |
+|```\'``` | aspas simples: \' |
+|```\"``` | aspas duplas:  \" |
+|```\\``` | contra-barra: \\ |
+|```\b``` | Backspace |
+|```\f``` | Form Feed |
+|```\n``` | New Line |
+|```\r``` | Carriage Return |
+|```\t``` | Horizontal Tabulator |
+|```\v``` | Vertical Tabulator |
+

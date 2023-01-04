@@ -9,48 +9,105 @@ let nome = 'Maurício';
 let texto = "Ele se chama 'Mauricio'";
 ~~~
 
-#### Com o operador new (não recomendável)
+## Criando uma String Com o operador new 
 
-Objetos String criados com o new podem deixar a execução lenta e produzir resultados inesperados.
+Não recomendável.  
+Objetos String criados com o new podem deixar a execução lenta e produzir resultados inesperados.  
 
 ~~~javascript
-let nome2 = new String("Mauricio");
+let nome = new String("Mauricio");
 ~~~
 
 ## Obtendo o tamanho da String
 
 ~~~javascript
-var tam = nome.length;
+let tam = nome.length;
 ~~~
 
 ~~~javascript
-var tam = 'Maurício'.length;
+let tam = 'Maurício'.length;
+~~~
+
+## Removendo espaços iniciais e finais de uma string - trim()
+
+~~~javascript
+let minhaStr = '   bom dia   ';
+let strSemEspaco = minhaStr.trim();
 ~~~
 
 ## Convertendo para Maiúsculo
 
 ~~~javascript
-var maiusc = nome.toUpperCase();
+let maiusc = nome.toUpperCase();
 ~~~
 
 ## Convertendo para Minúsculo
 
 ~~~javascript
-var minusc = nome.toLowerCase();
+let minusc = nome.toLowerCase();
 ~~~
 
 ## Concatenando strings
 
 ~~~javascript
-var nome = 'Maurício';
+let nome = 'Maurício';
 console.log('Bom dia ' + nome);
 ~~~
 
 Utilizando template strings:
 
 ~~~javascript
-var nome = 'Maurício';
+let nome = 'Maurício';
 console.log(`Bom dia ${nome}`);
+~~~
+
+## Obtendo uma parte de uma string - slice(start, end)
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.slice(1, 3); // da pos 1 até a pos 3
+~~~
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.slice(1); // da pos 1 até o fim
+~~~
+
+Se um parâmetro for negativo, a posição é contada a partir do final da string:
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.slice(-3); // 3 ultimos caracteres
+~~~
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.slice(-4, -1); // do quarto (de tras pra frente) até o penúltimo
+~~~
+
+## Obtendo uma parte de uma string - substring(start, end)
+
+É semelhante a slice(), porém os parâmetros negativos são tratados como zeros.  
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.substring(1, 3); // da pos 1 até a pos 3 - 'au'
+~~~
+
+## Obtendo uma parte de uma string - substr(start, length)
+
+É semelhante à slice() porém o segundo parâmetro é o comprimento da parte extraída.  
+Funciona com parâmetros negativos também.  
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.substr(1, 3); // 'aur'
+~~~
+
+## Substituindo uma parte da string por outra - replace()
+
+~~~javascript
+let novoNome = nome.replace('Mau', 'Bom');
 ~~~
 
 ## Obtendo um índice de um trecho da string - indexOf()
@@ -59,33 +116,14 @@ Obtém o índice a partir do qual a substring 'rício' aparece pela primeira vez
 A contagem inicia em zero. Se não encontrar retorna -1.
 
 ~~~javascript
-var indice = nome.indexOf('rício');
+let indice = nome.indexOf('rício');
 ~~~
 
 ## Obtendo um índice de um trecho da string - lastIndexOf()
 
 ~~~javascript
-var nome = 'Maurício';
-var indice = nome.lastIndexOf('o'); // retorna 7
-~~~
-
-## Substituindo uma parte da string por outra - replace()
-
-~~~javascript
-var novoNome = nome.replace('Mau', 'Bom');
-~~~
-
-## Obtendo uma fatia de uma string - slice()
-
-~~~javascript
-var novoNome = nome.slice(1, 3); // da pos 1 até a pos 3
-~~~
-
-## Removendo espaços iniciais e finais de uma string - trim()
-
-~~~javascript
-var minhaStr = '   bom dia   ';
-var strSemEspaco = minhaStr.trim();
+let nome = 'Maurício';
+let indice = nome.lastIndexOf('o'); // retorna 7
 ~~~
 
 ## Caracteres de escape

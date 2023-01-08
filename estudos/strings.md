@@ -106,8 +106,40 @@ let novoNome = nome.substr(1, 3); // 'aur'
 
 ## Substituindo uma parte da string por outra - replace()
 
+Retorna uma nova string.  
+Substitui apenas a primeira correspondência na string.  
+Obs.: Expressões regulares são escritas sem aspas.  
+
+#### Substituindo a primeira correspondência
+
 ~~~javascript
+let nome = 'Mauricio';
 let novoNome = nome.replace('Mau', 'Bom');
+~~~
+
+#### Substituindo todas as correspondências - flag ```/g```
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.replace(/i/g, 'X'); // MaurXcXo
+~~~
+
+#### Substituindo sem considerar maiúsculo e minúsculo - flag ```/i```
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.replace(/MAU/i, 'Bom'); // Bomricio
+~~~
+
+## Substituindo uma parte da string por outra - replaceAll()
+
+Surgiu em 2021.  
+Não funciona no Internet Explorer.  
+
+~~~javascript
+let nome = 'Mauricio';
+let novoNome = nome.replaceAll('Mau', 'Bom'); // Bomricio
+let novoNome2 = nome.replaceAll(/i/g, 'X'); // MaurXcXo
 ~~~
 
 ## Obtendo um índice de um trecho da string - indexOf()

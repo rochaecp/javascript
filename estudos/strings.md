@@ -1,6 +1,8 @@
 # Javascript - Strings
 
 Strings são conjuntos de zero ou mais caracteres entre aspas simples ou duplas.  
+Todos os métodos de string retornam uma nova string. Eles não modificam a string original.  
+As strings são imutáveis: as strings não podem ser alteradas, apenas substituídas.  
 
 ## Criando uma String
 
@@ -35,6 +37,24 @@ let minhaStr = '   bom dia   ';
 let strSemEspaco = minhaStr.trim();
 ~~~
 
+## Removendo apenas os espaços iniciais de uma string - trimStart()
+
+O ECMAScript 2019 adicionou o método String trimStart()ao JavaScript.  
+
+~~~javascript
+let texto = "   Ola mundo.  ";
+let novoTexto = texto.trimStart();
+~~~
+
+## Removendo apenas os espaços finais de uma string - trimEnd()
+
+O ECMAScript 2019 adicionou o método String trimEnd() ao JavaScript.  
+
+~~~javascript
+let texto = "   Ola mundo.  ";
+let novoTexto = texto.trimEnd();
+~~~
+
 ## Convertendo para Maiúsculo
 
 ~~~javascript
@@ -59,6 +79,14 @@ Utilizando template strings:
 ~~~javascript
 let nome = 'Maurício';
 console.log(`Bom dia ${nome}`);
+~~~
+
+Utilizando o método concat:
+
+~~~javascript
+let firstName = "Maurício";
+let lastName = "Rocha";
+let fullName = firstName.concat(" ", lastName); // Maurício Rocha
 ~~~
 
 ## Obtendo uma parte de uma string - slice(start, end)
@@ -140,6 +168,24 @@ Não funciona no Internet Explorer.
 let nome = 'Mauricio';
 let novoNome = nome.replaceAll('Mau', 'Bom'); // Bomricio
 let novoNome2 = nome.replaceAll(/i/g, 'X'); // MaurXcXo
+~~~
+
+## Preenchendo o início de uma string com outra
+
+Surgiu em 2017 e não é suportado no Internet Explorer.  
+
+~~~javascript
+let texto = "80";
+let novoTexto = texto.padStart(4, "0"); // 0080
+~~~
+
+## Preenchendo o fim de uma string com outra
+
+Surgiu em 2017 e não é suportado no Internet Explorer.  
+
+~~~javascript
+let texto = "2";
+let novoTexto = texto.padEnd(4, "0"); // 2000
 ~~~
 
 ## Obtendo um índice de um trecho da string - indexOf()

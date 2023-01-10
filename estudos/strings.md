@@ -188,6 +188,35 @@ let texto = "2";
 let novoTexto = texto.padEnd(4, "0"); // 2000
 ~~~
 
+## Extraindo caracteres de uma string - charAt(position)
+
+Retorna o caractere em um índice especificado.  
+
+~~~javascript
+let texto = "Bom dia";
+let caractere = texto.charAt(0); // B
+~~~
+
+## Extraindo caracteres de uma string - charCodeAt(position)
+
+Retorna o unicode (UTF-16 entre 0 e 65535) do caractere em um índice especificado.  
+
+~~~javascript
+let texto = "Bom dia";
+let codCaractere = texto.charCodeAt(0); // 66
+~~~
+
+## Extraindo caracteres de uma string com a propriedade []
+
+Pode ser imprevisível e faz strings parecerem com arrays (strings não são arrays!!).  
+Se nenhum caractere for encontrado retorna undefined enquanto charAt() retorna uma string vazia.  
+É readonly, isto é: não permite ```str[0] = "A"  
+
+~~~javascript
+let texto = "Bom dia";
+let caractere = texto[0]; // B
+~~~
+
 ## Obtendo um índice de um trecho da string - indexOf()
 
 Obtém o índice a partir do qual a substring 'rício' aparece pela primeira vez na string nome.  

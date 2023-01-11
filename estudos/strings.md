@@ -231,18 +231,38 @@ let caractere = texto[0]; // B
 
 #### indexOf()
 
-Obtém o índice a partir do qual a substring 'rício' aparece pela primeira vez na string nome.  
-A contagem inicia em zero. Se não encontrar retorna -1.
+Obtém o índice a partir do qual uma substring aparece pela primeira vez na string.  
+O JavaScript conta as posições a partir de zero.  
+Se não encontrar retorna -1.  
 
 ~~~javascript
-let indice = nome.indexOf('rício');
+let nome = "Maurício";
+let indice = nome.indexOf("rício"); // 3
+~~~
+
+O segundo parâmetro é opcional e indica o início da pesquisa:
+
+~~~javascript
+let nome = "Mauricio";
+let indice = nome.indexOf("i", 5); // 6
 ~~~
 
 #### lastIndexOf()
 
+Obtém o índice da última ocorrência de um texto especificado em uma string.  
+Se não encontrar retorna -1.  
+Busca de trás para frente na string. Se o segundo parâmetro for 15, a busca inicia na posição 15, e busca até o início da string.
+
 ~~~javascript
 let nome = 'Maurício';
 let indice = nome.lastIndexOf('o'); // retorna 7
+~~~
+
+O segundo parâmetro é opcional e indica o início da pesquisa (de trás para frente):
+
+~~~javascript
+let text = "Please locate where 'locate' occurs!";
+let indice = text.lastIndexOf("locate", 15); // 7
 ~~~
 
 ## Convertendo uma string em um array 

@@ -23,6 +23,7 @@ let nome = new String("Mauricio");
 ## Obtendo o tamanho de uma String
 
 ~~~javascript
+let nome = "Maurício";
 let tam = nome.length;
 ~~~
 
@@ -99,12 +100,12 @@ let fullName = firstName.concat(" ", lastName); // Maurício Rocha
 
 ~~~javascript
 let nome = 'Mauricio';
-let novoNome = nome.slice(1, 3); // da pos 1 até a pos 3
+let novoNome = nome.slice(1, 3); // da pos 1 até a pos 3 - retorna au
 ~~~
 
 ~~~javascript
 let nome = 'Mauricio';
-let novoNome = nome.slice(1); // da pos 1 até o fim
+let novoNome = nome.slice(1); // da pos 1 até o fim - retorna auricio
 ~~~
 
 Se um parâmetro for negativo, a posição é contada a partir do final da string:
@@ -256,6 +257,14 @@ Busca de trás para frente na string. Se o segundo parâmetro for 15, a busca in
 ~~~javascript
 let nome = 'Maurício';
 let indice = nome.lastIndexOf('o'); // retorna 7
+~~~
+
+#### Obtendo o último texto após o último ```/``` em uma string
+
+~~~javascript
+var httpUrl = "http://www.google.com/teste";
+var finalIndex = httpUrl.lastIndexOf("/");
+var finalPath = httpUrl.slice(finalIndex + 1); // teste
 ~~~
 
 O segundo parâmetro é opcional e indica o início da pesquisa (de trás para frente):

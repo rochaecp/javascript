@@ -241,6 +241,8 @@ let nome = "Maurício";
 let indice = nome.indexOf("rício"); // 3
 ~~~
 
+#### Fornecendo o segundo parâmetro
+
 O segundo parâmetro é opcional e indica o início da pesquisa:
 
 ~~~javascript
@@ -252,14 +254,12 @@ let indice = nome.indexOf("i", 5); // 6
 
 Obtém o índice da última ocorrência de um texto especificado em uma string.  
 Se não encontrar retorna -1.  
-Busca de trás para frente na string. Se o segundo parâmetro for 15, a busca inicia na posição 15, e busca até o início da string.
+Busca de trás para frente na string. 
 
 ~~~javascript
-let nome = 'Maurício';
-let indice = nome.lastIndexOf('o'); // retorna 7
+let nome = 'Antonia';
+let indice = nome.lastIndexOf('n'); // 4
 ~~~
-
-#### Obtendo o último texto após o último ```/``` em uma string
 
 ~~~javascript
 var httpUrl = "http://www.google.com/teste";
@@ -267,11 +267,20 @@ var finalIndex = httpUrl.lastIndexOf("/");
 var finalPath = httpUrl.slice(finalIndex + 1); // teste
 ~~~
 
-O segundo parâmetro é opcional e indica o início da pesquisa (de trás para frente):
+#### Fornecendo o segundo parâmetro
+
+O segundo parâmetro é opcional e indica o início da pesquisa.  
+A busca ocorrerá do início da pesquisa até o início da string na posição zero (busca ocorre de trás para frente).
 
 ~~~javascript
-let text = "Please locate where 'locate' occurs!";
-let indice = text.lastIndexOf("locate", 15); // 7
+let nome = 'Antonia';
+let indice = nome.lastIndexOf('n', 3); // 1
+~~~
+
+~~~javascript
+var httpUrl = "http://www.google.com/teste";
+var finalIndex = httpUrl.lastIndexOf("/", httpUrl.length - 7); // inicia busca na pos 20
+var finalPath = httpUrl.slice(finalIndex + 1); // www.google.com/teste
 ~~~
 
 ## Convertendo uma string em um array 

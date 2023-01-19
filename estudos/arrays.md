@@ -82,7 +82,7 @@ var pessoasCpy = pessoas.slice();
 
 ## Propriedades do Array
 
-### length
+#### length
 
 ~~~javascript
 var tamanhoArray = pessoas.length;
@@ -90,25 +90,25 @@ var tamanhoArray = pessoas.length;
 
 ## Métodos do Array
 
-### Array.from()
+#### Array.from()
 
 ~~~javascript
 
 ~~~
 
-### Array.isArray()
+#### Array.isArray()
 
 ~~~javascript
 var ehArray = Array.isArray(pessoas);
 ~~~
 
-### Array.of()
+#### Array.of()
 
 ~~~javascript
 
 ~~~
 
-### Tostring()
+#### Tostring()
 
 - Converte um Array em uma String.
 
@@ -116,7 +116,7 @@ var ehArray = Array.isArray(pessoas);
 var pessoasStr = pessoas.toString();
 ~~~
 
-### Join()
+#### Join()
 
 - Converte um Array em uma String usando o separador escolhido.
 
@@ -125,25 +125,25 @@ separador = ' ';
 var pessoasStr = pessoas.join(separador);
 ~~~
 
-### Reverse()
+#### Reverse()
 
 ~~~javascript
 var pessoasInv = pessoas.reverse();
 ~~~
 
-### Sort()
+#### Sort()
 
 ~~~javascript
 pessoas.sort();  
 ~~~
 
-### Delete
+#### Delete
 
 ~~~javascript
 delete pessoas[0];
 ~~~
 
-### Concat()
+#### Concat()
 
 ~~~javascript
 var maisPessoas = pessoas1.concat(pessoas2);
@@ -151,10 +151,59 @@ var maisPessoas = pessoas1.concat(pessoas2);
 var maisPessoasAinda = pessoas1.concat(pessoas2, pessoas3);
 ~~~
 
-### Math.max.apply() e Math.min.apply()
+#### Math.max.apply() e Math.min.apply()
 
 ~~~javascript
 var maiorElemento = Math.max.apply(null, meusNumerosArray);
 
 var menorElemento = Math.min.apply(null, meusNumerosArray);
+~~~
+
+## Transformando um vetor em um array de arrays de 2 dimensões
+
+~~~javascript
+function vectorToArray (vector, arrayWidth, arrayHeight) {
+    var array = [];
+    for (var i = 0; i < arrayHeight; i++)
+        array[i] = [];
+
+    for (var i = 0; i < arrayHeight; i++) {
+        for (var j = 0; j < arrayWidth; j++) {
+            array[i][j] = vector[i * arrayWidth + j];
+        }
+    }
+    return array;
+}
+
+// testando a função
+var vector = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var myArray1 = vectorToArray(vector, 4, 3);
+var myArray2 = vectorToArray(vector, 6, 2);
+console.log(myArray1);
+console.log(myArray2);
+~~~
+
+
+## Tranformando um array de arrays de 2D em um vetor
+
+~~~javascript
+// Transformando um array de arrays de 2D em um vetor
+function arrayToVector (array) {
+    var vector = [];
+    var height = array.length;
+    for (var i = 0; i < height; i++) {
+        var width = array[i].length;
+        for (var j = 0; j < width; j++) {
+            vector[i * width + j] = array[i][j];
+        }
+    }
+    return vector;
+}
+
+var myArray1 = [ [ 0, 1, 2, 3 ], [ 4, 5, 6, 7 ] ];
+var myArray2 = [ [ 0, 1, 2, 3, 4, 5 ], [ 6, 7, 8, 9, 10, 11 ] ];
+var vector1 = arrayToVector(myArray1);
+var vector2 = arrayToVector(myArray2);
+console.log(vector1);
+console.log(vector2);
 ~~~

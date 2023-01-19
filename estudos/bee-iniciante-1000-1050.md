@@ -227,13 +227,21 @@ segundos = tempoTotal;
 console.log(`${horas}:${minutos}:${segundos}`);
 ~~~
 
-## 1020 - 
+## 1020 - Idade em dias
 
 ~~~javascript
-
+var totalDias = parseInt(lines[0]);
+var anos = parseInt(totalDias / 365);
+totalDias = totalDias % 365;
+var meses = parseInt(totalDias / 30);
+totalDias = totalDias % 30;
+var dias = totalDias;
+console.log(anos + ' ano(s)');
+console.log(meses + ' mes(es)');
+console.log(dias + ' dia(s)');
 ~~~
 
-## 1021 - 
+## 1021 - Notas e moedas
 
 ~~~javascript
 

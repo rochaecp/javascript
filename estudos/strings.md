@@ -313,6 +313,61 @@ let texto = "O mauricio não é mau e o Maurício não é Mau";
 const arrayCorresp = texto.match(/mau/gi); // ['mau', 'mau', 'Mau', 'Mau']
 ~~~
 
+#### matchAll()
+
+Surgiu em 2020.  
+Não é compatível com o Internet Explorer.  
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const iterator = texto.matchAll("mau");
+console.log(Array.from(iterator));
+~~~
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const iterator = texto.matchAll(/mau/g);
+console.log(Array.from(iterator));
+~~~
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const iterator = texto.matchAll(/mau/gi);
+console.log(Array.from(iterator));
+~~~
+
+## Verificando se uma string está contida em outra
+
+#### includes()
+
+Retorna true se uma string estiver contida em outra.  
+É case sensitive.  
+Surgiu no ES6.  
+Não é suportada no Internet Explorer.  
+Segundo parâmetro é o início da pesquisa.  
+
+~~~javascript
+let texto = "Bem vindos ao meu curso. O curso começará agora.";
+let palavraExiste = texto.includes("curso"); // true
+~~~
+
+~~~javascript
+let texto = "Bem vindos ao meu curso. O curso começará agora.";
+let palavraExiste = texto.includes("curso", 31); // false
+~~~
+
+#### startsWith()
+
+~~~javascript
+
+~~~
+
+#### endsWith()
+
+~~~javascript
+
+~~~
+
 ## Convertendo uma string em um array 
 
 #### split()

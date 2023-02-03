@@ -235,15 +235,13 @@ let caractere = texto[0]; // B
 Obtém o índice a partir do qual uma substring aparece pela primeira vez na string.  
 O JavaScript conta as posições a partir de zero.  
 Se não encontrar retorna -1.  
+O segundo parâmetro é opcional e indica o início da pesquisa.
+Não aceita o uso de expressões regulares.  
 
 ~~~javascript
 let nome = "Maurício";
 let indice = nome.indexOf("rício"); // 3
 ~~~
-
-#### Fornecendo o segundo parâmetro
-
-O segundo parâmetro é opcional e indica o início da pesquisa:
 
 ~~~javascript
 let nome = "Mauricio";
@@ -255,6 +253,8 @@ let indice = nome.indexOf("i", 5); // 6
 Obtém o índice da última ocorrência de um texto especificado em uma string.  
 Se não encontrar retorna -1.  
 Busca de trás para frente na string. 
+O segundo parâmetro é opcional e indica o início da pesquisa.  
+A busca ocorrerá do início da pesquisa até o início da string na posição zero (busca ocorre de trás para frente).
 
 ~~~javascript
 let nome = 'Antonia';
@@ -267,11 +267,6 @@ var finalIndex = httpUrl.lastIndexOf("/");
 var finalPath = httpUrl.slice(finalIndex + 1); // teste
 ~~~
 
-#### Fornecendo o segundo parâmetro
-
-O segundo parâmetro é opcional e indica o início da pesquisa.  
-A busca ocorrerá do início da pesquisa até o início da string na posição zero (busca ocorre de trás para frente).
-
 ~~~javascript
 let nome = 'Antonia';
 let indice = nome.lastIndexOf('n', 3); // 1
@@ -281,6 +276,41 @@ let indice = nome.lastIndexOf('n', 3); // 1
 var httpUrl = "http://www.google.com/teste";
 var finalIndex = httpUrl.lastIndexOf("/", httpUrl.length - 7); // inicia busca na pos 20
 var finalPath = httpUrl.slice(finalIndex + 1); // www.google.com/teste
+~~~
+
+#### search()
+
+Busca por uma string ou ER e retorna a primeira posição da correspondência.  
+Aceita o uso de Expressões Regulares.  
+Não aceita um segundo argumento.  
+
+~~~javascript
+let nome = "Von Neumann";
+let posicao = nome.search("Neumann"); // 4
+~~~
+
+~~~javascript
+let nome = "Von Neumann";
+let posicao = nome.search(/Neumann/); // 4
+~~~
+
+#### match()
+
+Retorna uma matriz contendo a primeira correspondência da string com uma outra string ou com uma ER.  
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const arrayCorresp = texto.match("mau");
+~~~
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const arrayCorresp = texto.match(/mau/);
+~~~
+
+~~~javascript
+let texto = "O mauricio não é mau e o Maurício não é Mau";
+const arrayCorresp = texto.match(/mau/gi); // ['mau', 'mau', 'Mau', 'Mau']
 ~~~
 
 ## Convertendo uma string em um array 

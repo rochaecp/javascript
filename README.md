@@ -37,6 +37,7 @@
 ## Outros
 
 1. [Eventos HTML](estudos/eventos.md)
+1. [Expressões Regulares](estudos/expressoes-regulares.md)
 1. [Iterator](estudos/iterator.md)
 
 ## DOM (Document Object Model)

@@ -24,7 +24,7 @@ let area = PI * Math.pow(raio, 2);
 console.log(`A=${area.toFixed(4)}`);
 ~~~
       
-## 1003 - Soma Simples 
+### 1003 - Soma Simples 
 
 ~~~javascript
 let a = parseInt(lines[0]);
@@ -32,7 +32,7 @@ let b = parseInt(lines[1]);
 console.log(`SOMA = ${a + b}`);
 ~~~
       
-## 1004 - Produto Simples 
+### 1004 - Produto Simples 
 
 ~~~javascript
 let a = parseInt(lines[0]);
@@ -41,7 +41,7 @@ let prod = a * b;
 console.log(`PROD = ${prod}`);
 ~~~
       
-## 1005 - Média 1 
+### 1005 - Média 1 
 
 ~~~javascript
 let nota1 = Number(lines[0]);
@@ -50,7 +50,7 @@ let media = (3.5 * nota1 + 7.5 * nota2) / 11;
 console.log(`MEDIA = ${media.toFixed(5)}`);
 ~~~
       
-## 1006 - Média 2 
+### 1006 - Média 2 
 
 ~~~javascript
 let a = Number(lines[0]);
@@ -60,7 +60,7 @@ let media = (2 * a + 3 * b + 5 * c) / 10;
 console.log(`MEDIA = ${media.toFixed(1)}`);
 ~~~
       
-## 1007 - Diferença 
+### 1007 - Diferença 
 
 ~~~javascript
 let a = parseInt(lines[0]);
@@ -71,7 +71,7 @@ let dif = a * b - c * d;
 console.log(`DIFERENCA = ${dif}`);
 ~~~
       
-## 1008 - Salário 
+### 1008 - Salário 
 
 ~~~javascript
 let num = lines[0];
@@ -83,7 +83,7 @@ console.log(`NUMBER = ${num}`);
 console.log(`SALARY = U$ ${salary.toFixed(2)}`);
 ~~~
       
-## 1009 - Salário com Bônus 
+### 1009 - Salário com Bônus 
 
 ~~~javascript
 let salarioFixo = parseFloat(lines[1]);
@@ -92,7 +92,7 @@ let totalReceber = salarioFixo + totVendas * 0.15;
 console.log('TOTAL = R$ ' + totalReceber.toFixed(2));
 ~~~
 
-## 1010 - Cálculo simples 
+### 1010 - Cálculo simples 
 
 ~~~javascript
 var line1 = lines[0].split(' ');
@@ -105,7 +105,7 @@ let valorPagar = numPecas1 * valPeca1 + numPecas2 * valPeca2;
 console.log(`VALOR A PAGAR: R$ ${valorPagar.toFixed(2)}`);
 ~~~
 
-## 1011 - Esfera 
+### 1011 - Esfera 
 
 ~~~javascript
 const pi = 3.14159;
@@ -114,7 +114,7 @@ let volume = (4.0/3) * pi * Math.pow(raio, 3);
 console.log(`VOLUME = ${volume.toFixed(3)}`);
 ~~~
 
-## 1012 - Área 
+### 1012 - Área 
 
 ~~~javascript
 var colunas = lines[0].split(' ');
@@ -130,7 +130,7 @@ area = Math.pow(b, 2); console.log(`QUADRADO: ${area.toFixed(3)}`);
 area = a * b; console.log(`RETANGULO: ${area.toFixed(3)}`);
 ~~~
 
-## 1013 - O Maior 
+### 1013 - O Maior 
 
 ~~~javascript
 function maiorAb (a, b) {
@@ -147,7 +147,7 @@ maior = maiorAb(maior, c);
 console.log(`${maior} eh o maior`);
 ~~~
 
-## 1014 - Consumo 
+### 1014 - Consumo 
 
 ~~~javascript
 let distPerc = parseInt(lines[0]);
@@ -156,7 +156,7 @@ let consumo = distPerc / totCombust;
 console.log(`${consumo.toFixed(3)} km/l`);
 ~~~
 
-## 1015 - Distância entre dois pontos 
+### 1015 - Distância entre dois pontos 
 
 ~~~javascript
 let x1 = parseFloat(lines[0].split(' ')[0]);
@@ -167,13 +167,13 @@ let dist = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 console.log(dist.toFixed(4));
 ~~~
 
-## 1016 - Distância 
+### 1016 - Distância 
 
 ~~~javascript
 console.log(parseInt(lines[0] * 2) + " minutos");
 ~~~
 
-## 1017 - Gasto de Combustível 
+### 1017 - Gasto de Combustível 
 
 ~~~javascript
 const consumo = 12;
@@ -184,7 +184,7 @@ let totalLitros = distPercorrida / consumo;
 console.log(totalLitros.toFixed(3));
 ~~~
 
-## 1018 - Cédulas 
+### 1018 - Cédulas 
 
 ~~~javascript
 let valorTotal = parseInt(lines[0]);
@@ -204,7 +204,7 @@ valorTotal %= 2;
 console.log(`${parseInt(valorTotal / 1)} nota(s) de R$ 1,00`);
 ~~~
 
-## 1019 - Conversão de Tempo 
+### 1019 - Conversão de Tempo 
 
 ~~~javascript
 let tempoTotal = parseInt(lines[0]);
@@ -227,7 +227,7 @@ segundos = tempoTotal;
 console.log(`${horas}:${minutos}:${segundos}`);
 ~~~
 
-## 1020 - Idade em dias
+### 1020 - Idade em dias
 
 ~~~javascript
 var totalDias = parseInt(lines[0]);
@@ -241,181 +241,97 @@ console.log(meses + ' mes(es)');
 console.log(dias + ' dia(s)');
 ~~~
 
-## 1021 - Notas e moedas
+### 1021 - Notas e Moedas
 
 ~~~javascript
 
 ~~~
 
-## 1022 - 
+### 1035 - Teste de Seleção 1
 
 ~~~javascript
 
 ~~~
 
-## 1023 - 
+### 1036 - Fórmula de Bhaskara
 
 ~~~javascript
 
 ~~~
 
-## 1024 - 
+### 1037 - Intervalo
 
 ~~~javascript
 
 ~~~
 
-## 1025 -     
+### 1038 - Lanche
 
 ~~~javascript
 
 ~~~
 
-## 1026 -     
+### 1040 - Média 3
 
 ~~~javascript
 
 ~~~
 
-## 1027 -
+### 1041 - Coordenadas de um Ponto
 
 ~~~javascript
 
 ~~~
 
-## 1028 -
+### 1042 - Sort Simples
 
 ~~~javascript
 
 ~~~
 
-## 1029 -
+### 1043 - Triângulo
 
 ~~~javascript
 
 ~~~
 
-## 1030 -
+### 1044 - Múltiplos
 
 ~~~javascript
 
 ~~~
 
-## 1031 -
+### 1045 - Tipos de Triângulos
 
 ~~~javascript
 
 ~~~
 
-## 1032 -
+### 1046 - Tempo de Jogo
 
 ~~~javascript
 
 ~~~
 
-## 1033 -
+### 1047 - Tempo de Jogo com Minutos
 
 ~~~javascript
 
 ~~~
 
-## 1034 -
+### 1048 - Aumento de Salário
 
 ~~~javascript
 
 ~~~
 
-## 1035 -
+### 1049 - Animal
 
 ~~~javascript
 
 ~~~
 
-## 1036 -
-
-~~~javascript
-
-~~~
-
-## 1037 -
-
-~~~javascript
-
-~~~
-
-## 1038 -
-
-~~~javascript
-
-~~~
-
-## 1039 - 
-
-~~~javascript
-
-~~~
-
-## 1040 -
-
-~~~javascript
-
-~~~
-
-## 1041 -
-
-~~~javascript
-
-~~~
-
-## 1042 -
-
-~~~javascript
-
-~~~
-
-## 1043 -
-
-~~~javascript
-
-~~~
-
-## 1044 -
-
-~~~javascript
-
-~~~
-
-## 1045 -
-
-~~~javascript
-
-~~~
-
-## 1046 -
-
-~~~javascript
-
-~~~
-
-## 1047 - 
-
-~~~javascript
-
-~~~
-
-## 1048 -
-
-~~~javascript
-
-~~~
-
-## 1049 -
-
-~~~javascript
-
-~~~
-
-## 1050 -
+### 1050 - DDD
 
 ~~~javascript
 

@@ -10,4 +10,5 @@
 1. [TensorFlowJS](estudos/tensorflowjs/README.md)
 1. [ThreeJS](estudos/threejs/README.md)
 1. [Canvas](estudos/canvas/README.md)
+1. [Ionic](estudos/ionic/README.md)
 1. [Exercícios](estudos/exercicios/README.md)

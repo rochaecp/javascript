@@ -244,7 +244,60 @@ console.log(dias + ' dia(s)');
 ### 1021 - Notas e Moedas
 
 ~~~javascript
+let valorTotal = parseFloat(lines[0]);
+let n100 = 0, n50 = 0, n20 = 0, n10 = 0, n5 = 0, n2 = 0;
+let moda100 = 0, moeda50 = 0, moeda25 = 0, moeda10 = 0, moeda5 = 0, moeda1 = 0;
 
+n100 = parseInt(valorTotal / 100);
+valorTotal = valorTotal - n100 * 100;
+
+n50 = parseInt(valorTotal / 50);
+valorTotal = valorTotal - n50 * 50;
+
+n20 = parseInt(valorTotal / 20);
+valorTotal = valorTotal - n20 * 20;
+
+n10 = parseInt(valorTotal / 10);
+valorTotal = valorTotal - n10 * 10;
+
+n5 = parseInt(valorTotal / 5);
+valorTotal = valorTotal - n5 * 5;
+
+n2 = parseInt(valorTotal / 2);
+valorTotal = valorTotal - n2 * 2;
+
+moda100 = parseInt(valorTotal / 1);
+valorTotal = (valorTotal - moda100).toFixed(2);
+valorTotal = parseInt(valorTotal * 100);
+
+moeda50 = parseInt(valorTotal / 50);
+valorTotal = (valorTotal - moeda50 * 50).toFixed(2);
+
+moeda25 = parseInt(valorTotal / 25);
+valorTotal = (valorTotal - moeda25 * 25).toFixed(2);
+
+moeda10 = parseInt(valorTotal / 10);
+valorTotal = (valorTotal - moeda10 * 10).toFixed(2);
+
+moeda5 = parseInt(valorTotal / 5);
+valorTotal = (valorTotal - moeda5 * 5).toFixed(2);
+
+moeda1 = parseInt(valorTotal);
+
+console.log('NOTAS:');
+console.log(`${n100} nota(s) de R$ 100.00`);
+console.log(`${n50} nota(s) de R$ 50.00`);
+console.log(`${n20} nota(s) de R$ 20.00`);
+console.log(`${n10} nota(s) de R$ 10.00`);
+console.log(`${n5} nota(s) de R$ 5.00`);
+console.log(`${n2} nota(s) de R$ 2.00`);
+console.log('MOEDAS:');
+console.log(`${moda100} moeda(s) de R$ 1.00`);
+console.log(`${moeda50} moeda(s) de R$ 0.50`);
+console.log(`${moeda25} moeda(s) de R$ 0.25`);
+console.log(`${moeda10} moeda(s) de R$ 0.10`);
+console.log(`${moeda5} moeda(s) de R$ 0.05`);
+console.log(`${moeda1} moeda(s) de R$ 0.01`);
 ~~~
 
 ### 1035 - Teste de Seleção 1

@@ -303,7 +303,16 @@ console.log(`${moeda1} moeda(s) de R$ 0.01`);
 ### 1035 - Teste de Seleção 1
 
 ~~~javascript
+var linha0 = lines[0].split(' ');
+var a = parseInt(linha0[0]);
+var b = parseInt(linha0[1]);
+var c = parseInt(linha0[2]);
+var d = parseInt(linha0[3]);
 
+if(b > c && d > a && (c + d) > (a + b) && c >= 0 && d >= 0 && a % 2 == 0)
+    console.log("Valores aceitos");
+else
+    console.log("Valores nao aceitos");
 ~~~
 
 ### 1036 - Fórmula de Bhaskara

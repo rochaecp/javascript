@@ -318,7 +318,22 @@ else
 ### 1036 - Fórmula de Bhaskara
 
 ~~~javascript
+lines = lines[0].split(' ');
+var a = parseFloat(lines[0])
+var b = parseFloat(lines[1])
+var c = parseFloat(lines[2])
+var r1 = 0, r2 = 0;
 
+var delta = b ** 2 - 4 * a * c
+
+if (delta < 0 || a == 0)
+    console.log("Impossivel calcular");
+else {
+    r1 = (-b + delta ** 0.5) / (2 * a);
+    r2 = (-b - delta ** 0.5) / (2 * a);
+    console.log("R1 = " + r1.toFixed(5));
+    console.log("R2 = " + r2.toFixed(5));
+}
 ~~~
 
 ### 1037 - Intervalo

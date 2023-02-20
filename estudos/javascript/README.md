@@ -11,15 +11,14 @@
 
 1. [Sobre o Javascript](estudos/about.md)
 1. [Tipos de Dados](estudos/tipos.md)
-1. [Variáveis e Constantes](estudos/variaveis.md)
+1. [Variáveis e Constantes](estudos/variaveis-constantes.md)
 1. [Operadores](estudos/operadores.md)
-1. [Output](estudos/output.md)
-1. [Funções](estudos/funcoes.md)
-1. [Strings](estudos/strings.md)
-1. [Números](estudos/numeros.md)
-1. [Math](estudos/math.md)
-1. [Gerar Números Aleatórios](estudos/aleatorios.md)
 1. [Casting](estudos/casting.md)
+1. [Inputs e outputs pelo console](estudos/output.md)
+1. [Strings](estudos/strings.md)
+1. [Math](estudos/math.md)
+1. [Números](estudos/numeros.md)
+1. [Gerar Números Aleatórios](estudos/aleatorios.md)
 1. [Datas](estudos/datas.md)
 
 ## Comandos Condicionais e de Repetição
@@ -36,6 +35,7 @@
 
 ## Outros
 
+1. [Funções](estudos/funcoes.md)
 1. [Eventos HTML](estudos/eventos.md)
 1. [Expressões Regulares](estudos/expressoes-regulares.md)
 1. [Iterator](estudos/iterator.md)

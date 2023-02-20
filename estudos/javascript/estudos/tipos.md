@@ -5,14 +5,16 @@ Em Javascript possui tipos dinâmicos, isto é, uma mesma variável pode ser usa
 
 ## Tipos Básicos de Dados 
 
-- ```string```
-- ```number```
-- ```bigint```
-- ```boolean``` 
-- ```undefined```
-- ```null``` 
-- ```symbol```
-- ```object``` 
+| Tipo                  | Tamanho   | Exemplo           |
+| ---                   | ---       | ---               |
+|```string```           |           |                   |
+|```number```           |           |                   |
+|```bigint```           |           |                   |
+|```boolean```          |           |                   |
+|```undefined```        |           |                   |
+|```null```             |           |                   |
+|```symbol```           |           |                   |
+|```object```           |           |                   |
 
 O tipo object pode conter:
 

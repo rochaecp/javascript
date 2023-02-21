@@ -358,14 +358,28 @@ let palavraExiste = texto.includes("curso", 31); // false
 
 #### startsWith()
 
-~~~javascript
+O segundo parâmetro é a posição de início.  
+É case sensitive.  
+Surgiu no ES6 e não é suportado no Internet Explorer.
 
+~~~javascript
+let texto = "Um código limpo faz bem apenas uma coisa";
+let myBool1 = texto.startsWith("um");           // false
+let myBool2 = texto.startsWith("Um");           // true
+let myBool3 = texto.startsWith("código", 3);    // true
 ~~~
 
 #### endsWith()
 
-~~~javascript
+O segundo parâmetro é a posição de início.  
+É case sensitive.  
+Surgiu no ES6 e não é suportado no Internet Explorer.
 
+~~~javascript
+let texto = "Um código limpo faz bem apenas uma coisa";
+let myBool1 = texto.endsWith("Coisa");        // false
+let myBool2 = texto.endsWith("coisa");        // true
+let myBool3 = texto.endsWith("código", 9);    // true
 ~~~
 
 ## Convertendo uma string em um array 

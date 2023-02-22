@@ -399,6 +399,37 @@ let texto = "Mauricio";
 const meuArray = texto.split("");  // ['M', 'a', 'u', 'r', 'i', 'c', 'i', 'o']
 ~~~
 
+## Template Strings
+
+Alguns sinônimos: template literals, string templates, back-ticks syntax.  
+Não são suportadas no Internet Explorer.  
+
+#### Criar uma template String
+
+~~~javascript
+let texto = `Deixe a área do acampamento mais limpa do que quando você a encontrou`;
+let texto2 = `permite 'aspas' internamente`;
+~~~
+
+~~~javascript
+let text = 
+`Permite
+textos
+multiline`;
+~~~
+
+#### Interpolação
+
+~~~javascript
+let idade = 31;
+let texto = `Minha idade é ${idade}`;
+~~~
+
+~~~javascript
+let preco = 5.99;
+let mensagem = `Total = ${(preco * 1.2).toFixed(2)}`; // Total = 7.19
+~~~
+
 ## Caracteres de escape
 
 | Caractere | Descrição |

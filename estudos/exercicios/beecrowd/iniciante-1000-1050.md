@@ -356,7 +356,30 @@ else
 console.log(mensagem);
 ~~~
 
-### 1038 - Lanche
+### 1038 - Lanche (solução com Maps)
+
+~~~javascript
+var inputs = lines[0].split(' ');
+var codigo = parseInt(inputs[0]);
+var quantidade = parseInt(inputs[1]);
+var preco = 0;
+var total = 0;
+
+const itens = new Map ([ 
+    [ 1, { preco: 4.00 } ],
+    [ 2, { preco: 4.50 } ],
+    [ 3, { preco: 5.00 } ],
+    [ 4, { preco: 2.00 } ],
+    [ 5, { preco: 1.50 } ]
+]);
+
+preco = itens.get(codigo).preco;
+total = preco * quantidade;
+
+console.log(`Total: R$ ${total.toFixed(2)}`);
+~~~
+
+### 1038 - Lanche (solução com Maps)
 
 ~~~javascript
 

@@ -379,7 +379,7 @@ total = preco * quantidade;
 console.log(`Total: R$ ${total.toFixed(2)}`);
 ~~~
 
-### 1038 - Lanche (solução com Maps)
+### 1038 - Lanche (solução com objetos)
 
 ~~~javascript
 

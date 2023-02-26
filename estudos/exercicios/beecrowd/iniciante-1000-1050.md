@@ -382,7 +382,24 @@ console.log(`Total: R$ ${total.toFixed(2)}`);
 ### 1038 - Lanche (solução com objetos)
 
 ~~~javascript
+var inputs = lines[0].split(' ');
+var codigo = parseInt(inputs[0]);
+var quantidade = parseInt(inputs[1]);
+var preco = 0;
+var total = 0;
 
+const itens = [ 
+    { cod: 1, preco: 4.00 },
+    { cod: 2, preco: 4.50 },
+    { cod: 3, preco: 5.00 },
+    { cod: 4, preco: 2.00 },
+    { cod: 5, preco: 1.50 }
+];
+
+preco = itens.filter(item => item.cod === codigo)[0].preco;
+total = preco * quantidade;
+
+console.log(`Total: R$ ${total.toFixed(2)}`);
 ~~~
 
 ### 1040 - Média 3

@@ -64,7 +64,7 @@ var botaoEnviar = document.getElementById('botao');
 */
 function dizBomDia() {
     alert("Bom dia " + inputNome.value);
-}	
+}
 
 
 

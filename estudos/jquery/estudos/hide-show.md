@@ -49,7 +49,7 @@ $("button").click(function(){
 </style>
 <body>
 
-	<button id="esconder">Esconder</button>
+<button id="esconder">Esconder</button>
     <button id="exibir">Exibir</button>
 
     <p>Texto</p>
@@ -65,7 +65,7 @@ $("button").click(function(){
                 $('p').show();
             });
         });
-		
+
     </script>
 
 </body>

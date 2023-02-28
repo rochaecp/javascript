@@ -33,8 +33,8 @@ script.js:
 
 ~~~javascript
 $(document).ready(function () {
-	$('button').click(function () {
-    	$('p').toggle('slow');
+    $('button').click(function () {
+        $('p').toggle('slow');
     });
 });
 ~~~

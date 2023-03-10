@@ -1,6 +1,7 @@
 # Javascript - Números
 
-Em Javascript há apenas um tipo de número (ponto flutuante de 64 bits).  
+Em Javascript há apenas um tipo de número (ponto flutuante de 64 bits - padrão internacional IEEE 754);
+Precisão: até 15 dígitos;
 
 ## Criar variáveis numéricas
 
@@ -15,4 +16,19 @@ let y = 123e-5;   // 0.00123
 const num = 12.4032;
 const num = eval('2 + 3');        
 const bool = isNaN('aaa'); 
+~~~
+
+## Precisão
+
+#### Inteiros: 15 digitos
+
+~~~javascript
+let x = 999999999999999;   // x will be 999999999999999
+let y = 9999999999999999;  // y will be 10000000000000000
+~~~
+
+#### Ponto Flutuante: 17 casas decimais
+
+~~~javascript
+
 ~~~

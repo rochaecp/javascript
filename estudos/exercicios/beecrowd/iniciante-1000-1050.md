@@ -439,7 +439,24 @@ else if (media < 5) {
 ### 1041 - Coordenadas de um Ponto
 
 ~~~javascript
+var entradas = lines[0].split(' ');
+var coordX = parseFloat(entradas[0]);
+var coordY = parseFloat(entradas[1]);
 
+if (coordX === 0 && coordY === 0)
+    console.log("Origem");
+else if (coordX !== 0 && coordY == 0)    
+    console.log("Eixo X");
+else if (coordX == 0 && coordY !== 0)    
+    console.log("Eixo Y");    
+else if (coordX > 0 && coordY > 0)    
+    console.log("Q1");
+else if (coordX < 0 && coordY > 0)    
+    console.log("Q2");
+else if (coordX < 0 && coordY < 0)    
+    console.log("Q3");
+else if (coordX > 0 && coordY < 0)    
+    console.log("Q4");
 ~~~
 
 ### 1042 - Sort Simples

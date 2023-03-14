@@ -32,3 +32,30 @@ let y = 9999999999999999;  // y will be 10000000000000000
 ~~~javascript
 
 ~~~
+
+#### Precisão de ponto Flutuante
+
+~~~javascript
+var numero = 0.2 + 0.1 // 0.30000000000000004
+
+// resolvemos com:
+var numero = (0.2 * 10 + 0.1 * 10) / 10;
+~~~
+
+## Adicionar números e strings
+
+O interpretador JavaScript funciona da esquerda para a direita.
+O JavaScript tentará converter strings em números em todas as operações numéricas (exceto na soma, pois usa o mesmo operador da concatenação).    
+
+~~~javascript
+let x = 10 + "20"; // 1020
+let x = "10" + 20; // 1020
+let x = "100" / "10"; // 10
+let x = "100" - "10"; // 90
+~~~
+
+## NaN - Not a Number
+
+~~~javascript
+
+~~~

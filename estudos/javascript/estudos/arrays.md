@@ -1,15 +1,28 @@
 # Javascript - Arrays
 
-- São objetos globais.
+Em Javascript arrays são objetos globais.  
 
-## Criando um Array
+## Criar um Array
+
+#### Array unidimensional simples
 
 ~~~javascript
 var pessoas = ['Mauricio', 'Maria', 'Joana'];
 var numeros = []; // vazio
 ~~~
 
-Array de objetos:
+#### Array bidimensional (array de arrays)
+
+~~~javascript
+const meuArray = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8]
+];
+
+console.log(meuArray[1][0]); // 5
+~~~
+
+#### Array de objetos:
 
 ~~~javascript
 var pontos = [
@@ -18,148 +31,167 @@ var pontos = [
 ];
 ~~~
 
-## Acessando um item do Array
+## Acessar um item de um Array
 
 ~~~javascript
-var primeiro = pessoas[0];
-
-var ultimo = pessoas[pessoas.length - 1];
+const frutas = ["banana", "uva", "manga"];
+var primeiro = frutas[0];
+var ultimo = pessoas[frutas.length - 1];
 ~~~
 
 ## Iterar um Array
 
 ~~~javascript
-pessoas.forEach(function (item, indice, array) {
-    console.log(`${indice} - ${item}`);
+const frutas = ["banana", "uva", "manga"];
+frutas.forEach(function (item, indice, array) {
+    console.log(`${indice} - ${item} - ${array}`);
 });
 ~~~
 
 ## Adicionar um item ao final do Array
 
 ~~~javascript
-var totalAposIncluir = pessoas.push("Antonia");
+const frutas = ["banana", "uva", "manga"];
+var totalAposIncluir = frutas.push("goiaba"); // 4
 ~~~
 
 ## Adicionar um item no início do Array
 
 ~~~javascript
-totalAposIncluir = pessoas.unshift("Joãozinho"); 
+const frutas = ["banana", "uva", "manga"];
+totalAposIncluir = frutas.unshift("goiaba"); // 4
 ~~~
 
 ## Remover um item do final do Array
 
 ~~~javascript
-var itemExcluido = pessoas.pop();
+const frutas = ["banana", "uva", "manga"]; 
+var itemExcluido = frutas.pop(); // manga
 ~~~
 
 ## Remover um item do início do Array
 
 ~~~javascript
-var itemExcluido = pessoas.shift();
+const frutas = ["banana", "uva", "manga"]; 
+var itemExcluido = frutas.shift(); // banana
 ~~~
 
 ## Remover um item pela posição do índice
 
 ~~~javascript
+const frutas = ["banana", "uva", "manga"]; 
 var posicao = 0;
-var quantidade = 1 // opcional
-var itensRemovidos = pessoas.splice(posicao, quantidade);
+var quantidade = 2 // opcional
+var itensRemovidos = frutas.splice(posicao, quantidade); // [ 'banana', 'uva' ]
 ~~~
 
-## Procurar o índice de um ítem do Array
+## Procurar o índice de um ítem de um Array
 
 ~~~javascript
-var posPrimeiroEncontrado = pessoas.indexOf('Mauricio'); 
-
-var posUltimoEncontrado = pessoas.lastIndexOf('Mauricio'); 
+const frutas = ["banana", "uva", "uva", "manga", "manga"]; 
+var posPrimeiroEncontrado = frutas.indexOf('uva'); // 1
+var posUltimoEncontrado = frutas.lastIndexOf('manga'); // 4
 ~~~
 
 ## Copiar um Array
 
 ~~~javascript
-var pessoasCpy = pessoas.slice();
+const frutas = ["banana", "uva", "manga"]; 
+var frutasCpy = frutas.slice();
 ~~~
 
-## Propriedades do Array
-
-#### length
+## Obter o tamanho de um array
 
 ~~~javascript
-var tamanhoArray = pessoas.length;
+const frutas = ["banana", "uva", "manga"]; 
+var tamanhoArray = frutas.length; // 3
 ~~~
 
-## Métodos do Array
-
-#### Array.from()
+## Array.from()
 
 ~~~javascript
 
 ~~~
 
-#### Array.isArray()
+## Verificar se um objeto é um array - Array.isArray()
 
 ~~~javascript
-var ehArray = Array.isArray(pessoas);
+const frutas = ["banana", "uva", "manga"]; 
+var ehArray = Array.isArray(frutas); // true
 ~~~
 
-#### Array.of()
+## Array.of()
 
 ~~~javascript
 
 ~~~
 
-#### Tostring()
-
-- Converte um Array em uma String.
+## Converter um array em uma string - Tostring()
 
 ~~~javascript
-var pessoasStr = pessoas.toString();
+const frutas = ["banana", "uva", "manga"]; 
+var frutasStr = frutas.toString(); // banana,uva,manga
 ~~~
 
-#### Join()
-
-- Converte um Array em uma String usando o separador escolhido.
+## Converter um array em uma string usando um separador escolhido - Join()
 
 ~~~javascript
+const frutas = ["banana", "uva", "manga"]; 
 separador = ' ';
-var pessoasStr = pessoas.join(separador);
+var frutasStr = frutas.join(separador); // banana uva manga
 ~~~
 
-#### Reverse()
+## Inverter a ordem de um array - Reverse()
 
 ~~~javascript
-var pessoasInv = pessoas.reverse();
+const frutas = ["banana", "uva", "manga"];
+const frutasInv = frutas.reverse(); // [ 'manga', 'uva', 'banana' ]
 ~~~
+
+## Ordenar um array 
 
 #### Sort()
 
 ~~~javascript
-pessoas.sort();  
+const frutas = ["banana", "uva", "manga"];
+frutas.sort(); // [ 'banana', 'manga', 'uva' ]
 ~~~
 
-#### Delete
+## Deletar um item do array - Delete
 
 ~~~javascript
-delete pessoas[0];
+const frutas = ["banana", "uva", "manga"];
+delete frutas[0]; // [ <1 empty item>, 'uva', 'manga' ]
 ~~~
 
-#### Concat()
+## Concatenar - Concat()
+
+#### 2 arrays 
 
 ~~~javascript
-var maisPessoas = pessoas1.concat(pessoas2);
-
-var maisPessoasAinda = pessoas1.concat(pessoas2, pessoas3);
+const frutas1 = ["banana", "uva", "manga"];
+const frutas2 = ["manga", "abacaxi", "goiaba"];
+const todasFrutas = frutas1.concat(frutas2); // [ 'banana', 'uva', 'manga', 'manga', 'abacaxi', 'goiaba' ]
 ~~~
 
-#### Math.max.apply() e Math.min.apply()
+#### 3 arrays
 
 ~~~javascript
-var maiorElemento = Math.max.apply(null, meusNumerosArray);
-
-var menorElemento = Math.min.apply(null, meusNumerosArray);
+const frutas1 = ["banana", "uva", "manga"];
+const frutas2 = ["manga", "abacaxi", "goiaba"];
+const frutas3 = ["abacate", "kiwi"];
+const todasFrutas = frutas1.concat(frutas2, frutas3);
 ~~~
 
-## Transformando um vetor em um array de arrays de 2 dimensões
+## Obter o maior e o menor elementos do array - Math.max.apply() e Math.min.apply()
+
+~~~javascript
+const idades = [21, 18, 14, 34] ;
+var maiorElemento = Math.max.apply(null, idades); // 34
+var menorElemento = Math.min.apply(null, idades); // 14
+~~~
+
+## Transformar um vetor em um array de arrays de 2 dimensões
 
 ~~~javascript
 function vectorToArray (vector, arrayWidth, arrayHeight) {
@@ -175,7 +207,7 @@ function vectorToArray (vector, arrayWidth, arrayHeight) {
     return array;
 }
 
-// testando a função
+// testar a função
 var vector = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 var myArray1 = vectorToArray(vector, 4, 3);
 var myArray2 = vectorToArray(vector, 6, 2);
@@ -184,10 +216,10 @@ console.log(myArray2);
 ~~~
 
 
-## Tranformando um array de arrays de 2D em um vetor
+## Tranformar um array de arrays de 2D em um vetor
 
 ~~~javascript
-// Transformando um array de arrays de 2D em um vetor
+// Transformar um array de arrays de 2D em um vetor
 function arrayToVector (array) {
     var vector = [];
     var height = array.length;

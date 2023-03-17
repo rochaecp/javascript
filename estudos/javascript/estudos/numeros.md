@@ -56,6 +56,38 @@ let x = "100" - "10"; // 90
 
 ## NaN - Not a Number
 
-~~~javascript
+Indica que um valor não é um número válido.  
+É do tipo number.  
 
+~~~javascript
+let x = 100 / "abacaxi"; 	// NaN
+let x = 100 / "10"; 		// 10
+~~~
+
+~~~javascript
+let x = NaN;
+let resultado = x + 10; // NaN
+~~~
+
+~~~javascript
+let tipo = typeof NaN; // number
+~~~
+
+## Descobrir se um valor é um número
+
+~~~javascript
+let x = 100 / "abacaxi"; 	// NaN
+ehNumero = isNaN()			// true
+~~~
+
+## Trabalhando com valores infinitos
+
+~~~javascript
+let x = 2 / 0; // Infinity
+
+let y = Infinity - Infinity; // NaN
+~~~
+
+~~~javascript
+let tipo = typeof Infinity; // number
 ~~~

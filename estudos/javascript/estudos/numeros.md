@@ -87,6 +87,8 @@ const num = eval('2 + 3');
 
 ## Hexadecimal
 
+Se um número é precedido por ```0x``` então ele será interpretado como hexadecimal.
+
 ~~~javascript
 let x = 0xFF; // 255
 ~~~

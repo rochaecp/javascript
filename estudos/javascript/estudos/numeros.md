@@ -92,3 +92,13 @@ Se um número é precedido por ```0x``` então ele será interpretado como hexad
 ~~~javascript
 let x = 0xFF; // 255
 ~~~
+
+## Converter um número para outra base numérica
+
+~~~javascript
+let meuNumero = 32;
+meuNumero = meuNumero.toString(16); // base hexadecimal
+meuNumero = meuNumero.toString(10); // base decimal
+meuNumero = meuNumero.toString(8); // base octal
+meuNumero = meuNumero.toString(2); // base binária
+~~~

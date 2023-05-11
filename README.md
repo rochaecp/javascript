@@ -1,14 +1,20 @@
 # Javascript
 
-1. [Javascript](javascript/README.md)
-1. [AngularJS](angularjs/README.md)
-1. [Angular](angular/README.md)
-1. [Typescript](typescript/README.md)
-1. [ReactJS](reactjs/README.md)
-1. [NodeJS](nodejs/README.md)
-1. [JQuery](jquery/README.md)
-1. [TensorFlowJS](tensorflowjs/README.md)
-1. [ThreeJS](threejs/README.md)
-1. [Canvas](canvas/README.md)
-1. [Ionic](ionic/README.md)
-1. [Exercícios](exercicios/README.md)
+- Linguagem
+    - [Javascript](javascript/README.md)
+    - [Typescript](typescript/README.md)
+- Frameworks e bibliotecas web
+    - [AngularJS](angularjs/README.md)
+    - [Angular](angular/README.md)
+    - [ReactJS](reactjs/README.md)
+    - [NodeJS](nodejs/README.md)
+    - [JQuery](jquery/README.md)
+- Mobile
+    - [Ionic](ionic/README.md)
+- Inteligência Artificial    
+    - [TensorFlowJS](tensorflowjs/README.md)
+- Computação Gráfica    
+    - [ThreeJS](threejs/README.md)
+    - [Canvas](canvas/README.md)
+- Treinos
+    - [Exercícios](exercicios/README.md)

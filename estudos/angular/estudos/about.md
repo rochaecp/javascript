@@ -7,7 +7,7 @@
 - Orientado a objetos
 - Site Oficial: [https://angular.io/](https://angular.io/)
 
-## Versões do Angular
+# Versões do Angular
 
 - Angular 2 (2015)
     - Incompatível com AngularJS (versão 1.x)
@@ -40,14 +40,14 @@
     - Beta: ex: 10.0.0-beta
     - Release Candidate: ex: 10.1.0-rc
 
-## Aplicação Server-side
+# Aplicação Server-side
 
 - Client faz um request (requisição) inicial
 - Server processa o request e retorna um html completo (com js e css)
 - Client exibe a informação no browser
 - Maior tráfego na rede, recarrega a página
 
-## Aplicação SPA (Single Page Application)
+# Aplicação SPA (Single Page Application)
 
 - Requisição inicial
     - Client faz um request (requisição) inicial
@@ -59,7 +59,39 @@
 - A idéia é conter apenas uma página    
 - Aplicação onde navegamos e interagimos com a tela sem a página ser recarregada. Ex.: Gmail
 
-## REST
+# Anatomia de um App Angular
 
-## TypeScript
+- Uma aplicação pode ser dividida em um módulo para cada feature
+- Um módulo é composto por uma coleção de componentes e por serviços
+- Um componente pode consumir uma API Rest de através de serviços
+- Um serviço é uma classe no Angular responsável por trabalhar com o mundo externo
+
+# Componentes
+
+- Cada componente é formado por: 
+    - Um template (é um arquivo HTML, parte visual)
+    - Uma classe (com propriedades e métodos, code behind) 
+    - Metadata (dados que dizem como a classe se comporta e com quais arquivos está ligada)
+- Código de um componente
+    - Dependências
+    - Metadados
+    - Definição da classe
+    
+# Linguagens Suportadas
+
+- Javascript 
+    - Compatível com a versão ES 5 (roda em todos browser)
+    - Compatível com a versão ES 6 (2015, talvez precise transpilar o código para ser compatível com o ES 5 para browsers mais antigos)
+- Typescript
+    - É a favorita para utilizar com o Angular
+    - Desenvolvida pela Microsoft, pelo pai do C# e do .NET
+    - Open Source
+    - É um superset do Javascript
+    - É fortemente Tipado
+    - Utiliza Orientação a Objetos
+    - Tem um ferramental rico na IDE VScode
+    - Precisa ser transpilado: arquivo.ts vira um .js
+- Dart
+    - Não é JS
+    - É uma linguagem do Google
 

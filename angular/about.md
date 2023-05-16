@@ -95,3 +95,20 @@
     - Não é JS
     - É uma linguagem do Google
 
+# Setup (Requisitos necessários)
+
+- NodeJS
+    - Acessar o site: <https://nodejs.org>
+    - Instalar a última versão LTS (caminho mais seguro)
+    - Descobrir a versão do node: ```node --version```
+- NPM
+    - NPM (Node Package Manager) é um gerenciador/repositório de pacotes (análogo ao Nuget)
+    - Site: <https://npmjs.com>
+    - Descobrir a versão do npm: ```npm --version```
+    - Para atualizar globalmente a versão: ```npm install npm@latest -g```
+    - Alguns pacotes:
+        - ngx-bootstrap
+    - Evitar frameworks que tenham JQuery como dependência
+
+    
+

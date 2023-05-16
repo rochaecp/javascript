@@ -110,5 +110,5 @@
         - ngx-bootstrap
     - Evitar frameworks que tenham JQuery como dependência
 
-    
+  
 

@@ -1,4 +1,3 @@
 # Angular
 
-1. [Sobre o Angular](about.md)
-1. [CLI](cli.md)
+- [Curso 1](curso-1/README.md)

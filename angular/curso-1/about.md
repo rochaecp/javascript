@@ -97,18 +97,37 @@
 
 # Setup (Requisitos necessários)
 
-- NodeJS
-    - Acessar o site: <https://nodejs.org>
-    - Instalar a última versão LTS (caminho mais seguro)
-    - Descobrir a versão do node: ```node --version```
-- NPM
-    - NPM (Node Package Manager) é um gerenciador/repositório de pacotes (análogo ao Nuget)
-    - Site: <https://npmjs.com>
-    - Descobrir a versão do npm: ```npm --version```
-    - Para atualizar globalmente a versão: ```npm install npm@latest -g```
-    - Alguns pacotes:
-        - ngx-bootstrap
-    - Evitar frameworks que tenham JQuery como dependência
+- nodeJS
+- npm
+- Angular CLI
 
-  
+# Instalar o nodeJs
 
+- Acessar o site: <https://nodejs.org>
+- Instalar a última versão LTS (caminho mais seguro)
+- Descobrir a versão do node:
+
+~~~bash
+node --version # ou node -v
+~~~
+
+# Instalar ou atualizar o npm (Node Package Manager)
+
+- Acessar o site: <https://npmjs.com>
+- Descobrir a versão instalada:
+
+~~~bash
+npm --version
+~~~
+
+- Atualizar para a mais nova versão
+
+~~~bash
+npm install npm@latest -g # -g == global
+~~~
+
+# Instalar o Angular CLI (Command Line Interface)
+
+~~~bash
+npm install -g @angular/cli
+~~~

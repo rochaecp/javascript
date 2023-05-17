@@ -1,11 +1,12 @@
-# CLI (Command Line Interface)
+# Angular CLI (Command Line Interface)
 
-- É a maneira mais rápida, fácil e recomendada de desenvolver aplicativos Angular.
+- Documentação oficial: <https://angular.io/cli>
 
-# Instalação do CLI do Angular
+# Obter informações sobre comandos
 
 ~~~bash
-npm install -g @angular/cli
+ng --help
+ng new --help
 ~~~
 
 # Criar uma nova aplicação
@@ -13,36 +14,38 @@ npm install -g @angular/cli
 - Por default o prefixo (--prefix) da aplicação é app
 
 ~~~bash
-ng new
+ng new NomeApp
 ~~~
 
-# Compila a aplicação no diretório de output
-
-~~~bash
-ng build
-~~~
-
-# "Builda" e serve seu aplicativo, "re-Builda" caso haja alterações de arquivo
-
-~~~bash
-ng serve
-~~~
-
-# Gera ou modifica arquivos com base em um esquema
+# Criar uma parte da aplicação (componente, rota, serviço, etc)
 
 ~~~bash
 ng generate
 ~~~
 
-# Executa testes de unidade em um determinado projeto.
+# Compilar a aplicação no diretório de output
+
+~~~bash
+ng build
+~~~
+
+# Rodar localmente a aplicação
+
+- "Builda" e serve seu aplicativo
+- "re-Builda" caso haja alterações de arquivo
+
+~~~bash
+ng serve
+~~~
+
+# Executar testes de unidade em um determinado projeto.
 
 ~~~bash
 ng test
 ~~~
 
-# Cria e atende a um aplicativo Angular e, em seguida, executa testes de ponta a ponta.
+# Criar e atende a um aplicativo Angular e, em seguida, executa testes de ponta a ponta.
 
 ~~~bash
 ng e2e
 ~~~
-

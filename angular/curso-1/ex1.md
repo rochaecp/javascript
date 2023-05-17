@@ -1,8 +1,13 @@
-# Criando a primeira aplicação
+# Criar a primeira aplicação
 
-- É recomendado utilizar o CLI para criar uma aplicação
+1. Criar um novo projeto:
 
-~~~bash
-ng new --commit=false
-~~~
+    ~~~bash
+    ng new MeuApp
+    ~~~
+
+1. Teste
+
+
+
 

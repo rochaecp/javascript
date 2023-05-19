@@ -131,3 +131,31 @@ npm install npm@latest -g # -g == global
 ~~~bash
 npm install -g @angular/cli
 ~~~
+
+# Anatomia de um app angular
+
+- Diretórios
+    - node_modules
+        - pacotes necessários para rodar a aplicação
+    - src
+        - código fonte da aplicação
+    - src/app
+        - componentes da aplicação
+    - src/assets
+        - arquivos complementares: css, imagens
+    - src/environments
+        - gerenciamento dos ambientes da aplicação: desenvolvimento, produção
+    - src/index.html
+        - página da SPA
+    - src/main.ts
+        - arquivo principal da aplicação
+    - .editorconfig
+        - configurações do editor (ex.: Visual Studio Code)
+    - angular.json
+        - arquivo de configuração do projeto
+    - package.json
+        - referência dos pacotes json instalados
+    - package-lock.json
+        - "manter a versão com lock"
+    - tsconfig.app.json, tsconfig.json, tsconfig.spec.json
+        - configurações sobre o typescript

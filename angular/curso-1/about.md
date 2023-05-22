@@ -134,28 +134,47 @@ npm install -g @angular/cli
 
 # Anatomia de um app angular
 
-- Diretórios
-    - node_modules
-        - pacotes necessários para rodar a aplicação
-    - src
-        - código fonte da aplicação
-    - src/app
-        - componentes da aplicação
-    - src/assets
-        - arquivos complementares: css, imagens
-    - src/environments
-        - gerenciamento dos ambientes da aplicação: desenvolvimento, produção
-    - src/index.html
-        - página da SPA
-    - src/main.ts
-        - arquivo principal da aplicação
-    - .editorconfig
-        - configurações do editor (ex.: Visual Studio Code)
-    - angular.json
-        - arquivo de configuração do projeto
-    - package.json
-        - referência dos pacotes json instalados
-    - package-lock.json
-        - "manter a versão com lock"
-    - tsconfig.app.json, tsconfig.json, tsconfig.spec.json
-        - configurações sobre o typescript
+- node_modules
+    - pacotes necessários para rodar a aplicação
+    - Cada pasta é um pacote
+    - As vezes é necessário apagar o conteúdo para resolver problemas
+- src
+    - código fonte da aplicação
+- src/app
+    - componentes da aplicação
+- src/assets
+    - arquivos complementares: css, imagens
+- src/environments
+    - gerenciamento dos ambientes da aplicação: desenvolvimento, produção
+- src/index.html
+    - página da SPA
+    - Aplicação fica no <app-root></app-root>
+        - É o componente principal do Angular
+        - Renderiza a aplicação
+- src/main.ts
+    - Arquivo principal da aplicação
+    - Define qual será o módulo principal (classe de módulo)
+- src/style.css
+    - Estilos globais
+- src/app/app.module.ts
+    - Módulo Principal ou classe de módulo
+- src/app/app.components.ts
+    - Componente
+    - Possui uma url de template html (que será exibida dentro do index.html) e um css próprio
+- src/app/app-routing.module.ts
+    - Arquivo de roteamento para o módulo    
+- .editorconfig
+    - configurações do editor (ex.: Visual Studio Code)
+- angular.json
+    - arquivo de configuração da aplicação
+- package.json
+    - define o nome da aplicação, dependências utilizadas
+    - referência dos pacotes json instalados
+- package-lock.json
+    - "manter a versão com lock"
+- tsconfig.app.json, tsconfig.json, tsconfig.spec.json
+    - configurações sobre o typescript
+- environments/environments.prod.ts
+    - arquivo para ambiente de produção
+- environments/environments.ts
+    - arquivo para ambiente de desenvolvimento

@@ -6,11 +6,11 @@
     ng new MeuApp
     ~~~
 
-1. Entrar no diretório da aplicação e iniciar a execução
+1. Entrar no diretório da aplicação e executar a aplicação 
 
     ~~~bash
     cd MeuApp
-    
+    ng serve
     ~~~
 
 

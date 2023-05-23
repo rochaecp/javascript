@@ -1,51 +1,52 @@
 # Angular CLI (Command Line Interface)
 
-- Documentação oficial: <https://angular.io/cli>
+1. Obter informações sobre comandos
+    - Documentação oficial: <https://angular.io/cli>
 
-# Obter informações sobre comandos
+    ~~~bash
+    ng --help
+    ng new --help
+    ~~~
 
-~~~bash
-ng --help
-ng new --help
-~~~
+1. Criar uma nova aplicação
 
-# Criar uma nova aplicação
+    - Por default o prefixo (--prefix) da aplicação é app
 
-- Por default o prefixo (--prefix) da aplicação é app
+    ~~~bash
+    ng new NomeApp
+    ~~~
 
-~~~bash
-ng new NomeApp
-~~~
+1. Criar uma parte da aplicação (componente, rota, serviço, etc)
 
-# Criar uma parte da aplicação (componente, rota, serviço, etc)
+    ~~~bash
+    ng generate
+    ~~~
 
-~~~bash
-ng generate
-~~~
+1. Compilar a aplicação no diretório de output
 
-# Compilar a aplicação no diretório de output
+    ~~~bash
+    ng build
+    ~~~
 
-~~~bash
-ng build
-~~~
+1. Rodar localmente a aplicação
 
-# Rodar localmente a aplicação
+    - "Builda" e serve seu aplicativo
+    - "re-Builda" caso haja alterações de arquivo
+    - O webpack compacta tudo
+    - Gera os chunks (pedaços de código da aplicação)
 
-- "Builda" e serve seu aplicativo
-- "re-Builda" caso haja alterações de arquivo
+    ~~~bash
+    ng serve
+    ~~~
 
-~~~bash
-ng serve
-~~~
+1. Executar testes de unidade em um determinado projeto.
 
-# Executar testes de unidade em um determinado projeto.
+    ~~~bash
+    ng test
+    ~~~
 
-~~~bash
-ng test
-~~~
+1. Criar e atende a um aplicativo Angular e, em seguida, executa testes de ponta a ponta.
 
-# Criar e atende a um aplicativo Angular e, em seguida, executa testes de ponta a ponta.
-
-~~~bash
-ng e2e
-~~~
+    ~~~bash
+    ng e2e
+    ~~~

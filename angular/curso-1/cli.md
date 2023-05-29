@@ -22,12 +22,6 @@
     ng generate
     ~~~
 
-1. Compilar a aplicação no diretório de output
-
-    ~~~bash
-    ng build
-    ~~~
-
 1. Rodar localmente a aplicação
 
     - "Builda" e serve seu aplicativo
@@ -38,6 +32,23 @@
     ~~~bash
     ng serve
     ~~~
+
+1. Rodar localmente de modo semelhante a como seria em produção    
+
+    - Apenas para desenvolvimento
+
+    ~~~bash
+    ng serve --prod
+    ~~~
+
+1. Compilar a aplicação (sem rodar) no diretório dist (distribution)
+
+    - No diretório dist gera os arquivos que iriam par ao servidor
+    - TODO: comando para buildar de modo otimizado para prod
+
+    ~~~bash
+    ng build
+    ~~~   
 
 1. Executar testes de unidade em um determinado projeto.
 

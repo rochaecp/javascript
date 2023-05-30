@@ -6,6 +6,7 @@
 - Baseado em Webcomponentes
 - Orientado a objetos
 - Site Oficial: [https://angular.io/](https://angular.io/)
+- Documentação: [https://angular.io/docs](https://angular.io/docs)
 
 # Versões do Angular
 
@@ -178,3 +179,25 @@ npm install -g @angular/cli
     - arquivo para ambiente de produção
 - environments/environments.ts
     - arquivo para ambiente de desenvolvimento
+
+# Algumas extensões
+
+- Angular Console
+    - forma visual para comandos
+- Angular Snippets
+- Augury (plugin para navegador)
+    - mostra módulos da aplicação no inspect do navegador
+- Better Comments
+- Debugger for Chrome
+- GitLens 
+- npm for VS Code
+- npm intellisense
+
+# API List
+
+- [API List](https://angular.io/api)
+- Decorator
+    - Diz o que a classe é.
+    - A classe pode ser um componente, uma diretiva, um módulo, um serviço injetável, um pipe
+
+# Angular Arquitetura

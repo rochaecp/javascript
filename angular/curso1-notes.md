@@ -133,6 +133,23 @@ npm install npm@latest -g # -g == global
 npm install -g @angular/cli
 ~~~
 
+# Criar a primeira aplicação
+
+1. Criar um novo projeto:
+
+    ~~~bash
+    ng new MeuApp
+    ~~~
+
+1. Entrar no diretório da aplicação e executar a aplicação 
+
+    ~~~bash
+    cd MeuApp
+    ng serve    
+    ~~~
+
+1. Parar a aplicação: Ctrl + C
+
 # Anatomia de um app angular
 
 - node_modules
@@ -200,4 +217,31 @@ npm install -g @angular/cli
     - Diz o que a classe é.
     - A classe pode ser um componente, uma diretiva, um módulo, um serviço injetável, um pipe
 
-# Angular Arquitetura
+# Angular Componentes
+
+- Um componente é formado por
+    - um arquivo .ts - "componente" e "metadado" ou "decorators"
+    - um arquivo .html - "template"
+    - um arquivo .css - "estilo"
+    - um arquivo .spec.ts - "especificação de testes"
+- Arquivo app.component.ts
+    ~~~javascript
+    import { Component } from '@angular/core'; // import da diretiva que diz que é um componente
+
+    @Component({ // @Component indica que classe é um componente
+        selector: 'app-root', // nome para invocar o componente no html
+        templateUrl: './app.component.html', // caminho do template
+        styleUrls: ['./app.component.css'] // caminho do css
+    })
+    export class AppComponent { // parte declarativa da classe
+        title = 'MeuApp';
+    }
+    ~~~
+- Criar um componente via Angular CLI
+    - Pode deletar a spec.ts e o .css (remover respectivos caminhos do .ts)
+    - Os nomes de arquivo terminarão automaticamente com .component.\<extensão\>
+    - Implementa a interface OnInit logo, implementar método ngOnInit (método que sempre é chamado após o construtor)
+    - Ao criarmos um componente ele é automaticamente registrado no app.module.ts
+    ~~~bash
+    ng generate component pasta/NomeComponente # ou ainda ng g c pasta/NomeComponente
+    ~~~    

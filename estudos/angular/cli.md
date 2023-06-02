@@ -5,6 +5,7 @@
     ~~~bash
     ng --help
     ng new --help
+    ng g --help # Verificar o que podemos criar
     ~~~
 
 - Criar uma nova aplicação
@@ -12,11 +13,6 @@
     ~~~bash
     ng new NomeApp
     ~~~
-
-- Verificar o que podemos criar
-    ~~~bash
-    ng g --help
-    ~~~   
 
 - Criar uma parte da aplicação (componente, rota, serviço, etc)
     ~~~bash
@@ -27,6 +23,11 @@
     ~~~bash
     ng g module Funcionalidade
     ~~~    
+
+- Criar um serviço
+    ~~~bash
+    ng g service Servico
+    ~~~            
 
 - Rodar localmente a aplicação
     - "Builda" e serve seu aplicativo

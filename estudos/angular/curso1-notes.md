@@ -106,32 +106,34 @@
 
 - Acessar o site: <https://nodejs.org>
 - Instalar a última versão LTS (caminho mais seguro)
-- Descobrir a versão do node:
+- Descobrir a versão do node
 
-~~~bash
-node --version # ou node -v
-~~~
+    ~~~bash
+    node --version # ou node -v
+    ~~~
 
 # Instalar ou atualizar o npm (Node Package Manager)
 
 - Acessar o site: <https://npmjs.com>
-- Descobrir a versão instalada:
+- Descobrir a versão instalada
 
-~~~bash
-npm --version
-~~~
+    ~~~bash
+    npm --version
+    ~~~
 
 - Atualizar para a mais nova versão
 
-~~~bash
-npm install npm@latest -g # -g == global
-~~~
+    ~~~bash
+    npm install npm@latest -g # -g == global
+    ~~~
 
 # Instalar o Angular CLI (Command Line Interface)
 
-~~~bash
-npm install -g @angular/cli
-~~~
+- Instalação
+
+    ~~~bash
+    npm install -g @angular/cli
+    ~~~
 
 # Criar a primeira aplicação
 
@@ -224,6 +226,7 @@ npm install -g @angular/cli
     - um arquivo .html - "template"
     - um arquivo .css - "estilo"
     - um arquivo .spec.ts - "especificação de testes"
+
 - Arquivo app.component.ts
     ~~~javascript
     import { Component } from '@angular/core'; // import da diretiva que diz que é um componente
@@ -237,6 +240,7 @@ npm install -g @angular/cli
         title = 'MeuApp';
     }
     ~~~
+
 - Criar um componente via Angular CLI
     - Pode deletar a spec.ts e o .css (remover respectivos caminhos do .ts)
     - Os nomes de arquivo terminarão automaticamente com .component.\<extensão\>
@@ -244,4 +248,36 @@ npm install -g @angular/cli
     - Ao criarmos um componente ele é automaticamente registrado no app.module.ts
     ~~~bash
     ng generate component pasta/NomeComponente # ou ainda ng g c pasta/NomeComponente
-    ~~~    
+    ~~~  
+
+# Decorators
+
+- Define o comportamento de uma classe do Angular que tem uma responsabilidade específica.
+- Úteis para criar classes
+- Alguns Decorators
+    - Component
+    - Injectable
+        - define um serviço
+    - NgModule
+        - para criar um módulo
+    - Pipe
+        - para criar tratamento de como formatar informações na tela
+    - Directive
+    - Input 
+    - Output
+    - ViewChildren
+        - para reutilizar componentes visuais
+- Verificar o que podemos criar
+    ~~~bash
+    ng g --help
+    ~~~        
+
+# Modules
+
+- Existe apenas um módulo principal: app.module.ts
+- Criar um módulo
+    ~~~bash
+    ng g module Funcionalidade
+    ~~~
+- Um módulo é um arquivo nomeModulo.module.ts
+- Todos módulos criados precisam importar o CommonModule

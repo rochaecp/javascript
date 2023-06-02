@@ -1,20 +1,20 @@
 # Javascript
 
 - Linguagem
-    - [Javascript](javascript/README.md)
-    - [Typescript](typescript/README.md)
+    - [Javascript](estudos/javascript/README.md)
+    - [Typescript](estudos/typescript/README.md)
 - Frameworks e bibliotecas web
-    - [AngularJS](angularjs/README.md)
-    - [Angular](angular/README.md)
-    - [ReactJS](reactjs/README.md)
-    - [NodeJS](nodejs/README.md)
-    - [JQuery](jquery/README.md)
+    - [AngularJS](estudos/angularjs/README.md)
+    - [Angular](estudos/angular/README.md)
+    - [ReactJS](estudos/reactjs/README.md)
+    - [NodeJS](estudos/nodejs/README.md)
+    - [JQuery](estudos/jquery/README.md)
 - Mobile
-    - [Ionic](ionic/README.md)
+    - [Ionic](estudos/ionic/README.md)
 - Inteligência Artificial    
-    - [TensorFlowJS](tensorflowjs/README.md)
+    - [TensorFlowJS](estudos/tensorflowjs/README.md)
 - Computação Gráfica    
-    - [ThreeJS](threejs/README.md)
-    - [Canvas](canvas/README.md)
+    - [ThreeJS](estudos/threejs/README.md)
+    - [Canvas](estudos/canvas/README.md)
 - Exercícios
-    - [Exercícios](exercicios/README.md)
+    - [Exercícios](estudos/exercicios/README.md)

@@ -135,20 +135,20 @@ npm install -g @angular/cli
 
 # Criar a primeira aplicação
 
-1. Criar um novo projeto:
+- Criar um novo projeto:
 
     ~~~bash
     ng new MeuApp
     ~~~
 
-1. Entrar no diretório da aplicação e executar a aplicação 
+- Entrar no diretório da aplicação e executar a aplicação 
 
     ~~~bash
     cd MeuApp
     ng serve    
     ~~~
 
-1. Parar a aplicação: Ctrl + C
+- Parar a aplicação: Ctrl + C
 
 # Anatomia de um app angular
 
@@ -212,12 +212,12 @@ npm install -g @angular/cli
 
 # API List
 
-- [API List](https://angular.io/api)
+- [API List: https://angular.io/api](https://angular.io/api)
 - Decorator
     - Diz o que a classe é.
     - A classe pode ser um componente, uma diretiva, um módulo, um serviço injetável, um pipe
 
-# Angular Componentes
+# Angular Components
 
 - Um componente é formado por
     - um arquivo .ts - "componente" e "metadado" ou "decorators"

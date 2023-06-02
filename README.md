@@ -16,5 +16,5 @@
 - Computação Gráfica    
     - [ThreeJS](threejs/README.md)
     - [Canvas](canvas/README.md)
-- Treinos
+- Exercícios
     - [Exercícios](exercicios/README.md)

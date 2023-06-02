@@ -1,13 +1,8 @@
 # Canvas
 
-## Úteis
-
-- [Template](template.md)
-
-## Introdução
-
-1. [Sobre o Canvas](about.md)
-
-## Exemplos
-
-1. [Desenhando retângulos](ex-retangulos.md)
+- Úteis
+    - [Template](template.md)
+- Introdução
+    - [Sobre o Canvas](about.md)
+- Exemplos
+    - [Desenhando retângulos](ex-retangulos.md)

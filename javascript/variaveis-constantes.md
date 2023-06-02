@@ -105,10 +105,10 @@ Ao ser definido o valor não poderá mais ser modificado.
 
 Utilizar const ao declarar:
 
-1. Um Array
-1. Um Object
-1. Uma Function
-1. Uma RegExp
+- Um Array
+- Um Object
+- Uma Function
+- Uma RegExp
 
 > Podemos modificar os elementos de um Array constante ou as propriedades de um objeto constante.
 

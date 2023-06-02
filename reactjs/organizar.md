@@ -858,7 +858,7 @@ Lifecycle of Components:
 
 - Mounting means putting elements into the DOM.
 - React has four built-in methods that gets called, in this order, when mounting a component:
-  1. constructor()
+  - constructor()
       - The constructor() method is called before anything else, when the component is initiated, and it is the natural place to set up the initial state and other initial values.
       - The constructor() method is called with the props, as arguments, and you should always start by calling the super(props) before anything else, this will initiate the parent's constructor method and allows the component to inherit methods from its parent (React.Component).
   2. getDerivedStateFromProps()
@@ -936,7 +936,7 @@ ReactDOM.render(<Header />, document.getElementById('root'));
 - The next phase in the lifecycle is when a component is updated.
 - A component is updated whenever there is a change in the component's state or props.
 - React has five built-in methods that gets called, in this order, when a component is updated:
-    1. getDerivedStateFromProps()
+    - getDerivedStateFromProps()
         - This is the first method that is called when a component gets updated.
         - This is still the natural place to set the state object based on the initial props. 
     2. shouldComponentUpdate()
@@ -1362,7 +1362,7 @@ ReactDOM.render(<MyForm />, document.getElementById('root'));
 
 - If you do not want to display the h1 element until the user has done any input, you can add an if statement.
 - Look at the example below and note the following:
-  1. We create an empty variable, in this example we call it header.
+  - We create an empty variable, in this example we call it header.
   2. We add an if statement to insert content to the header variable if the user has done any input.
   3. We insert the header variable in the output, using curly brackets.
 

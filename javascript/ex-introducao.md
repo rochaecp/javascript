@@ -8,7 +8,7 @@ concatenada com o nome do usuário.
 
 ## Implementação
 
-1. Crie um arquivo chamado **index.html** e preencha-o com o seguinte conteúdo:
+- Crie um arquivo chamado **index.html** e preencha-o com o seguinte conteúdo:
 
 ~~~html
 <!DOCTYPE html>

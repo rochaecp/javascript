@@ -168,7 +168,7 @@ let novoNome = nome.replace(/MAU/i, 'Bom'); // Bomricio
 
 #### replaceAll()
 
-Surgiu em 2021.  
+Surgiu em 202-  
 Não funciona no Internet Explorer.  
 
 ~~~javascript
@@ -234,7 +234,7 @@ let caractere = texto[0]; // B
 
 Obtém o índice a partir do qual uma substring aparece pela primeira vez na string.  
 O JavaScript conta as posições a partir de zero.  
-Se não encontrar retorna -1.  
+Se não encontrar retorna --  
 O segundo parâmetro é opcional e indica o início da pesquisa.
 Não aceita o uso de expressões regulares.  
 
@@ -251,7 +251,7 @@ let indice = nome.indexOf("i", 5); // 6
 #### lastIndexOf()
 
 Obtém o índice da última ocorrência de um texto especificado em uma string.  
-Se não encontrar retorna -1.  
+Se não encontrar retorna --  
 Busca de trás para frente na string. 
 O segundo parâmetro é opcional e indica o início da pesquisa.  
 A busca ocorrerá do início da pesquisa até o início da string na posição zero (busca ocorre de trás para frente).

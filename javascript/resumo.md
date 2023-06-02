@@ -369,7 +369,7 @@ for(var i = 0; i < 5; i++) {
 > O **valor de incremento** do nosso laço de repetição é ``` i++ ```, que é o mesmo que ```i = i + 1``` (```i++``` é uma abreviação para esse comando).  
 > O **valor de incremento** no nosso exemplo é ``` 1 ``` é o valor de incremento que ```i``` irá receber no final de cada repetição.  
 > Em resumo, ocorre o seguinte:  
-> 1. ```i``` recebe o valor ```0```   
+> - ```i``` recebe o valor ```0```   
 > 2. Verifica-se se ```i < 5``` (caso sim, executa o comando ```console.log("Bom dia!");``` e em caso contrário ele encerra o laço for)   
 > 3. Após executar o comando ```console.log("Bom dia!");``` o valor de ```i``` é incrementado em ```1``` (conforme o incremento ```i++``` que é o mesmo que ```i = i + 1```)
 > Após o incremento, voltamos para o passo 2 (onde verificamos se ```i < 5```) e seguimos repetindo esses passos até sairmos do laço de repetição (quando ```i``` for igual a ```5```).   

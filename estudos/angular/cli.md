@@ -14,6 +14,11 @@
     ng new NomeApp
     ~~~
 
+- Criar a aplicação de tamanho mínimo e sem git
+    ~~~bash
+    ng new --minimal -g MeuProjeto # minima e sem git (-g)
+    ~~~    
+
 - Criar uma parte da aplicação (componente, rota, serviço, etc)
     ~~~bash
     ng generate --help # ou n g --help para ver opções

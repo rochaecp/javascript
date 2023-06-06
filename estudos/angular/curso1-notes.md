@@ -304,3 +304,14 @@
     - Ele será um Injectable
     - Podemos colocar o serviço criado no providers do app.module.ts
 
+# Exemplo de criação de aplicação
+
+1. Criar a aplicação
+    ~~~bash
+    ng new --minimal -g MeuProjeto # minima e sem git (-g)
+        # não adicionar roteamento (para treinar)
+        # usar o css
+    ~~~
+1. Criar um componente
+1. Inserir o css do Bootstrap no HTML    
+

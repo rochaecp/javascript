@@ -312,6 +312,15 @@
         # não adicionar roteamento (para treinar)
         # usar o css
     ~~~
-1. Criar um componente
-1. Inserir o css do Bootstrap no HTML    
+1. Inserir o css do Bootstrap no HTML
+1. Criar 3 componentes
+    ~~~bash
+    ng g c navegacao/menu 
+    ng g c navegacao/home
+    ng g c navegacao/footer
+    ~~~
+1. Para os componentes criados:
+    - Excluir arquivo spec e css 
+    - Remover a interface e o css do \<NomeComponente\>.component.ts    
+    
 

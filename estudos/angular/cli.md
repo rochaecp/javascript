@@ -6,6 +6,7 @@
     ng --help
     ng new --help
     ng g --help # Verificar o que podemos criar
+    ng version # versao do angular, do cli, ...
     ~~~
 
 - Criar uma nova aplicação

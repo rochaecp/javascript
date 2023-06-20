@@ -1,5 +1,0 @@
-# Ionic - CLI
-
-~~~bash
-
-~~~

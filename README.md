@@ -1,12 +1,7 @@
 # Javascript
 
--  Úteis
-    -  [Template](estudos/template.md)
-    -  [Boas Práticas](estudos/boas-praticas.md)
-    -  [Sobre APIs da Web disponíveis](estudos/apis-web.md)
-    -  [Inserindo JS na página](estudos/inserindo.md)
 -  Introdução
-    -  [Sobre o Javascript](estudos/about.md)
+    -  [Inserindo JS na página](estudos/inserindo.md)
     -  [Tipos de Dados](estudos/tipos.md)
     -  [Variáveis e Constantes](estudos/variaveis-constantes.md)
     -  [Operadores](estudos/operadores.md)

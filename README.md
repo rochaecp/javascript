@@ -32,6 +32,7 @@
 -  [Eventos HTML](estudos/outros/eventos.md)
 -  [Expressões Regulares](estudos/outros/expressoes-regulares.md)
 -  [Iterator](estudos/outros/iterator.md)
+-  [Debuggers](estudos/outros/debuggers.md)
 
 ####  DOM (Document Object Model)
 
